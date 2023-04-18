@@ -1,0 +1,26 @@
+name: App Load Params db check CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
+      - develop
+  pull_request:
+
+jobs:
+  app_load_params_db_check:
+    name: App Load Params db check
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run JQ check
+      run: jq -e . app-load-params-db.json >/dev/null
+
+    - name: Run linting check
+      run: scripts/app_load_params_lint.py --database_path app-load-params-db.json --check_lint
+
+    - name: Run appnames check
+      run: scripts/app_load_params_lint.py --database_path app-load-params-db.json --check_appnames
