@@ -66,6 +66,18 @@
     "appName": "Axelar",
     "path": ["44'/118'"]
   },
+  "AZERO": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appName": "Aleph Zero",
+    "curve": ["ed25519"],
+    "path": ["44'/643'"]
+  },
+  "AZERO_XL": {
+    "appFlags": {"nanos": "0x000"},
+    "appName": "Aleph Zero XL",
+    "curve": ["ed25519"],
+    "path": ["44'/643'"]
+  },
   "BNC": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Bifrost",
