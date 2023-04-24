@@ -553,6 +553,7 @@
   "cro_org": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Crypto.org Chain",
+    "curve": ["secp256k1"],
     "path": ["44'/394'"]
   },
   "cube": {
