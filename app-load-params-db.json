@@ -24,8 +24,9 @@
     "path": ["44'/441'"]
   },
   "ALGO": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Algorand",
+    "curve": ["ed25519"],
     "path": ["44'/283'"]
   },
   "APTOS": {
@@ -37,6 +38,7 @@
   "ARWEAVE": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Arweave",
+    "curve": ["ed25519"],
     "path": ["44'/472'", "44'/1'"]
   },
   "ASTR": {
@@ -52,8 +54,9 @@
     "path": ["44'/810'", "44'/354'"]
   },
   "ATOM": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Cosmos",
+    "curve": ["secp256k1"],
     "path": ["44'/118'"]
   },
   "AVAX": {
@@ -115,7 +118,7 @@
     "path": ["44'/309'"]
   },
   "CSPR": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Casper",
     "curve": ["secp256k1"],
     "path": ["44'/506'", "44'/1'"]
@@ -165,7 +168,7 @@
     "path": ["44'/99999997'", "44'/354'"]
   },
   "FIL": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Filecoin",
     "curve": ["secp256k1"],
     "path": ["44'/461'", "44'/1'"]
@@ -181,6 +184,12 @@
     "appName": "Hive",
     "curve": ["secp256k1"],
     "path": ["48'/13'"]
+  },
+  "ICP": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "InternetComputer",
+    "curve": ["secp256k1"],
+    "path": ["44'/223'"]
   },
   "IOV": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
@@ -264,7 +273,7 @@
     "path": ["44'/354'"]
   },
   "PDEX": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Polkadex",
     "curve": ["ed25519"],
     "path": ["44'/799'", "44'/354'"]
