@@ -665,6 +665,12 @@
     "curve": ["ed25519"],
     "path": ["44'/396'"]
   },
+  "exchange": {
+    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250"},
+    "appName": "Exchange",
+    "curve": ["ed25519", "secp256k1", "secp256r1"],
+    "path": [null]
+  },
   "expanse": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "Expanse",
