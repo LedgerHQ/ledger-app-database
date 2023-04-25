@@ -110,11 +110,19 @@ def check_manifest(manifest: dict, database: dict) -> None:
             elif key == "appFlags":
                 if not app_load_params_value:
                     app_load_params_value = ["0x000"]
+
                 if len(app_load_params_value) != 1:
                     print(f"[ERROR] Expected a single value for 'appFlags' ({app_load_params_value} vs {app_params_ref_value})")
                     ret = -1
                     continue
+
                 app_load_params_value = app_load_params_value[0]
+                if app_load_params_value.startswith("0x"):
+                    app_load_params_value = int(app_load_params_value, 16)
+                else:
+                    app_load_params_value = int(app_load_params_value)
+                app_load_params_value = format(app_load_params_value, "#05x")
+
                 app_params_ref_value = app_params_ref_value.get(target)
                 if not app_params_ref_value:
                     print(f"[ERROR] Missing 'appFlags' for '{target}'")
