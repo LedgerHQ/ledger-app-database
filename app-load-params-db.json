@@ -213,6 +213,12 @@
     "curve": ["ed25519"],
     "path": ["44'/686'", "44'/434'"]
   },
+  "KAS": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appName": "Kaspa",
+    "curve": ["secp256k1"],
+    "path": ["44'/111111'"]
+  },
   "KHALA": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Khala",
