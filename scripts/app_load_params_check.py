@@ -121,13 +121,16 @@ def check_manifest(manifest: dict, database: dict) -> None:
                     app_load_params_value = int(app_load_params_value, 16)
                 else:
                     app_load_params_value = int(app_load_params_value)
-                app_load_params_value = format(app_load_params_value, "#05x")
 
                 app_params_ref_value = app_params_ref_value.get(target)
                 if not app_params_ref_value:
                     print(f"[ERROR] Missing 'appFlags' for '{target}'")
                     ret = -1
                     continue
+                if app_params_ref_value.startswith("0x"):
+                    app_params_ref_value = int(app_params_ref_value, 16)
+                else:
+                    app_params_ref_value = int(app_params_ref_value)
 
             if not app_load_params_value == app_params_ref_value:
                 print(f"[ERROR] Unexpected value for '{key}' ({app_load_params_value} vs {app_params_ref_value})")
