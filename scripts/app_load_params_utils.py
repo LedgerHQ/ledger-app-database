@@ -13,6 +13,10 @@ def format_database(database: dict) -> str:
     database_str = database_str.replace("\n    ]", "]")
     database_str = database_str.replace("\n    }", "}")
     database_str = database_str.replace("\n      ", " ")
+
+    # Add newline at the end of file
+    database_str += "\n"
+
     return database_str
 
 
