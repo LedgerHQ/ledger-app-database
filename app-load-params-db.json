@@ -572,13 +572,13 @@
     "path": ["45'", "1517992542'/1101353413'", "44'/60'", "44'/1'"]
   },
   "decred": {
-    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50"},
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Decred",
     "curve": ["secp256k1"],
     "path": ["44'/42'"]
   },
   "decred_testnet": {
-    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250"},
+    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
     "appName": "Decred Test",
     "curve": ["secp256k1"],
     "path": ["44'/42'"]
