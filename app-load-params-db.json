@@ -491,6 +491,12 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/60'", "44'/1'"]
   },
+  "btec": {
+    "appFlags": {"nanos2": "0", "nanox": "0", "stax": "0"},
+    "appName": "BTEC",
+    "curve": ["secp256k1", "bls12381g1"],
+    "path": ["44'/60'", "12381/3600"]
+  },
   "bttc": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "BTTC",
