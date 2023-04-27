@@ -6,7 +6,7 @@
     "path": ["44'/60'", "45'"]
   },
   "ACA": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Acala",
     "curve": ["ed25519"],
     "path": ["44'/787'", "44'/354'"]
@@ -141,7 +141,7 @@
     "path": ["44'/594'"]
   },
   "DOT": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Polkadot",
     "curve": ["ed25519"],
     "path": ["44'/354'", "44'/434'"]
@@ -202,7 +202,7 @@
     "path": ["44'/304'"]
   },
   "KAR": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Karura",
     "curve": ["ed25519"],
     "path": ["44'/686'", "44'/434'"]
@@ -226,7 +226,7 @@
     "path": ["44'/434'"]
   },
   "KSM": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Kusama",
     "curve": ["ed25519"],
     "path": ["44'/434'", "44'/354'"]
@@ -396,6 +396,18 @@
     "appName": "xx network XL",
     "curve": ["ed25519"],
     "path": ["44'/1955'"]
+  },
+  "ZTG": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Zeitgeist",
+    "curve": ["ed25519"],
+    "path": ["44'/354'"]
+  },
+  "ZTG_XL": {
+    "appFlags": {"nanos": "0x000"},
+    "appName": "Zeitgeist XL",
+    "curve": ["ed25519"],
+    "path": ["44'/354'"]
   },
   "aeternity": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
