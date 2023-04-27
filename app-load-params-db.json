@@ -1277,7 +1277,7 @@
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "Tron",
     "curve": ["secp256k1"],
-    "path": ["44'/195'", "1517992542'/1101353413'"]
+    "path": ["44'/195'"]
   },
   "ubiq": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
