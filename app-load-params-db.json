@@ -830,6 +830,7 @@
   "iBitHub": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "iBitHub",
+    "curve": ["secp256k1"],
     "path": ["44'/1'"]
   },
   "icon": {
