@@ -445,7 +445,7 @@
     "path": ["45'", "1517992542'/1101353413'", "44'/550'", "44'/1'"]
   },
   "ardor": {
-    "appFlags": {"nanox": "0x0200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Ardor",
     "curve": ["ed25519"],
     "path": ["44'/16754'"]
