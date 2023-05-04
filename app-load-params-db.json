@@ -112,7 +112,7 @@
     "path": ["44'/747'", "44'/354'"]
   },
   "CKB": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x000"},
+    "appFlags": {"nanos": "0", "nanos2": "0", "nanox": "0", "stax": "0"},
     "appName": "Nervos",
     "curve": ["secp256k1"],
     "path": ["44'/309'"]
@@ -212,6 +212,12 @@
     "appName": "Karura XL",
     "curve": ["ed25519"],
     "path": ["44'/686'", "44'/434'"]
+  },
+  "KAS": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Kaspa",
+    "curve": ["secp256k1"],
+    "path": ["44'/111111'"]
   },
   "KHALA": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
