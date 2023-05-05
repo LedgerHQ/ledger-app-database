@@ -503,6 +503,20 @@
     "appName": "Binance Chain",
     "path": ["44'/714'"]
   },
+  "bitcoin": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Bitcoin",
+    "curve": ["secp256k1"],
+    "path": [null],
+    "path_slip21": ["LEDGER-Wallet policy"]
+  },
+  "bitcoin_testnet": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Bitcoin Test",
+    "curve": ["secp256k1"],
+    "path": [null],
+    "path_slip21": ["LEDGER-Wallet policy"]
+  },
   "bsc": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "Binance Smart Chain",
