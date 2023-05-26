@@ -522,12 +522,42 @@
     "path": [null],
     "path_slip21": ["LEDGER-Wallet policy"]
   },
+  "bitcoin_cash": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Bitcoin Cash",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
+  "bitcoin_gold": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Bitcoin Gold",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
+  "bitcoin_legacy": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Bitcoin Legacy",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
+  "bitcoin_private": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Bitcoin Private",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "bitcoin_testnet": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Bitcoin Test",
     "curve": ["secp256k1"],
     "path": [null],
     "path_slip21": ["LEDGER-Wallet policy"]
+  },
+  "bitcoin_testnet_legacy": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Bitcoin Test Legacy",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "bsc": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
@@ -627,6 +657,12 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/60'", "44'/1'"]
   },
+  "dash": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Dash",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "decred": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Decred",
@@ -649,6 +685,18 @@
     "appName": "DEXON",
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/237'", "44'/1'"]
+  },
+  "digibyte": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Digibyte",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
+  "dogecoin": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Dogecoin",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "eGLD": {
     "appFlags": {"nanos": "0x040", "nanos2": "0x040", "nanox": "0x240", "stax": "0x240"},
@@ -751,6 +799,12 @@
     "curve": ["secp256r1"],
     "path": ["5583430'"]
   },
+  "firo": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Firo",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "flare": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "Flare",
@@ -774,6 +828,12 @@
     "appName": "Fantom FTM",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
+  },
+  "gamecredits": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "GameCredits",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "gochain": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
@@ -840,6 +900,12 @@
     "appName": "TNT",
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/905'"]
+  },
+  "horizen": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Horizen",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "hpb": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
@@ -918,11 +984,23 @@
     "curve": ["ed25519"],
     "path": ["44'/2017'"]
   },
+  "komodo": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Komodo",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "kusd": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "kUSD",
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/91927009'", "44'/1'"]
+  },
+  "lbry": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "LBRY",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "lido": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
@@ -935,6 +1013,12 @@
     "appName": "Lisk",
     "curve": ["ed25519"],
     "path": ["44'/134'"]
+  },
+  "litecoin": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Litecoin",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "meter": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
@@ -1036,6 +1120,12 @@
     "curve": ["ed25519"],
     "path": ["44'/242'"]
   },
+  "nix": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "NIX",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "nos": {
     "appFlags": {"nanos": "0x50", "nanos2": "0x50", "nanox": "0x250"},
     "appName": "NOS",
@@ -1104,11 +1194,23 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
+  "peercoin": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Peercoin",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "pirl": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "Pirl",
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/164'", "44'/1'"]
+  },
+  "pivx": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "PivX",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "platon": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
@@ -1163,6 +1265,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'", "45'"]
   },
+  "ravencoin": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Ravencoin",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "recovery_check": {
     "appFlags": {"nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
     "appName": "Recovery Check",
@@ -1174,6 +1282,12 @@
     "appName": "REOSC",
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/2894'", "44'/1'"]
+  },
+  "resistance": {
+    "appFlags": {"nanos": "0xa50"},
+    "appName": "Resistance",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "ribbon": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
@@ -1283,11 +1397,23 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'", "45'"]
   },
+  "stealth": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Stealth",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "stellar": {
     "appFlags": {"nanos": "0x800", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Stellar",
     "curve": ["ed25519"],
     "path": ["44'/148'"]
+  },
+  "stratis": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Stratis",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "tecracoin": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
@@ -1377,6 +1503,18 @@
     "curve": ["ed25519"],
     "path": ["44'/396'"]
   },
+  "vertcoin": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Vertcoin",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
+  "viacoin": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Viacoin",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "volta": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "Volta",
@@ -1413,11 +1551,23 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/60'", "44'/550'", "44'/1'"]
   },
+  "xrhodium": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "xRhodium",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "xrp": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
     "appName": "XRP",
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/144'"]
+  },
+  "xsn": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "XSN",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "xym": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
@@ -1436,6 +1586,12 @@
     "appName": "Zcash",
     "curve": ["secp256k1"],
     "path": ["44'/133'"]
+  },
+  "zclassic": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "ZClassic",
+    "curve": ["secp256k1"],
+    "path": [null]
   },
   "zilliqa": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
