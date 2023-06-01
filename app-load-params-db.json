@@ -347,7 +347,7 @@
     "path": ["44'/529'"]
   },
   "STATEMINE": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Statemine",
     "curve": ["ed25519"],
     "path": ["44'/434'"]
@@ -359,7 +359,7 @@
     "path": ["44'/434'"]
   },
   "STATEMINT": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Statemint",
     "curve": ["ed25519"],
     "path": ["44'/354'"]
