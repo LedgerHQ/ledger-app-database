@@ -373,6 +373,7 @@
   "STX": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Stacks",
+    "curve": ["secp256k1"],
     "path": ["44'/5757'", "5757'", "888'/0'", "44'/1'"]
   },
   "SecurityKey": {
