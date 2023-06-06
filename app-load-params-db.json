@@ -42,7 +42,7 @@
     "path": ["44'/472'", "44'/1'"]
   },
   "ASTR": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Astar",
     "curve": ["ed25519"],
     "path": ["44'/810'", "44'/354'"]
@@ -255,7 +255,7 @@
     "path": ["44'/888'"]
   },
   "NODL": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Nodle",
     "curve": ["ed25519"],
     "path": ["44'/1003'", "44'/354'"]
