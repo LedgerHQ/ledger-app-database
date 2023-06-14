@@ -60,7 +60,7 @@
     "path": ["44'/118'", "44'/60'"]
   },
   "AVAX": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Avalanche",
     "path": ["44'/9000'", "44'/60'"]
   },
