@@ -258,7 +258,7 @@
   "MISC": {
     "appFlags": {"nanos": "0x800"},
     "appName": "MISC",
-    "curve": ["secp256r1"],
+    "curve": ["secp256k1"],
     "path": ["77738367'"]
   },
   "NEO3": {
