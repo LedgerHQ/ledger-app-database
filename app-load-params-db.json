@@ -255,6 +255,12 @@
     "appName": "MediBloc",
     "path": ["44'/371'"]
   },
+  "MISC": {
+    "appFlags": {"nanos": "0x800"},
+    "appName": "MISC",
+    "curve": ["secp256r1"],
+    "path": ["77738367'"]
+  },
   "NEO3": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "NEO N3",
