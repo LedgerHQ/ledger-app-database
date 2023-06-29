@@ -303,6 +303,18 @@
     "curve": ["ed25519"],
     "path": ["44'/799'", "44'/354'"]
   },
+  "PEN": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Pendulum",
+    "curve": ["ed25519"],
+    "path": ["44'/354'"]
+  },
+  "PEN_XL": {
+    "appFlags": {"nanos": "0x000"},
+    "appName": "Pendulum XL",
+    "curve": ["ed25519"],
+    "path": ["44'/354'"]
+  },
   "PHA": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Phala",
