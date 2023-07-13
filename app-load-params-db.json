@@ -60,10 +60,10 @@
     "path": ["44'/118'", "44'/60'"]
   },
   "AVAX": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Avalanche",
     "curve": ["secp256k1"],
-    "path": ["44'/9000'", "44'/60'"]
+    "path": [null]
   },
   "AXL": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
