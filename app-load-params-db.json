@@ -186,6 +186,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/461'", "44'/1'", "44'/60'"]
   },
+  "FIO": {
+    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appName": "FIO",
+    "curve": ["secp256k1"],
+    "path": ["44'/235'"]
+  },
   "FLOW": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Flow",
