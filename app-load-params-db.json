@@ -634,7 +634,7 @@
     "path": ["44'/60'"]
   },
   "celo": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Celo",
     "curve": ["secp256k1"],
     "path": ["44'/52752'"]
