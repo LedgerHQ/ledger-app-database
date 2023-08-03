@@ -373,9 +373,10 @@
     "path": ["44'/931'"]
   },
   "SCRT": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Secret",
-    "path": ["44'/529'"]
+    "curve": ["secp256k1"],
+    "path": ["44'/529'", "44'/60'"]
   },
   "STATEMINE": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
