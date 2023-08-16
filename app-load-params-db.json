@@ -142,13 +142,13 @@
     "path": ["44'/594'"]
   },
   "DOT": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xA00", "stax": "0xA00"},
     "appName": "Polkadot",
     "curve": ["ed25519"],
     "path": ["44'/354'", "44'/434'"]
   },
   "DOT_XL": {
-    "appFlags": {"nanos": "0x000"},
+    "appFlags": {"nanos": "0x800"},
     "appName": "Polkadot XL",
     "curve": ["ed25519"],
     "path": ["44'/354'", "44'/434'"]
