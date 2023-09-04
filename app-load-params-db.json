@@ -1361,7 +1361,7 @@
   },
   "rocketpool": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
-    "appName": "RocketPool",
+    "appName": "Rocket Pool",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
