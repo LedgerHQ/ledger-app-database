@@ -731,6 +731,12 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/237'", "44'/1'"]
   },
+  "dhp": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "dHealth",
+    "curve": ["secp256k1", "ed25519"],
+    "path": ["44'/10111'", "44'/1'"]
+  },
   "digibyte": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Digibyte",
