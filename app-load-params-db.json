@@ -168,6 +168,18 @@
     "appName": "Edgeware XL",
     "path": ["44'/523'"]
   },
+  "ENJ": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Enjin Chain",
+    "curve": ["ed25519"],
+    "path": ["44'/1155'", "44'/354'"]
+  },
+  "ENJ_XL": {
+    "appFlags": {"nanos": "0x000"},
+    "appName": "Enjin Chain XL",
+    "curve": ["ed25519"],
+    "path": ["44'/1155'", "44'/354'"]
+  },
   "Equilibrium": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Equilibrium",
@@ -179,8 +191,14 @@
     "curve": ["secp256k1"],
     "path": ["44'/461'", "44'/1'", "44'/60'"]
   },
+  "FIO": {
+    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appName": "FIO",
+    "curve": ["secp256k1"],
+    "path": ["44'/235'"]
+  },
   "FLOW": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Flow",
     "curve": ["secp256r1", "secp256k1"],
     "path": ["44'/539'", "44'/1'"]
@@ -260,6 +278,18 @@
     "appName": "Matrix AI",
     "curve": ["secp256k1"],
     "path": ["44'/318'"]
+  },
+  "MATRIX": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Enjin Matrix",
+    "curve": ["ed25519"],
+    "path": ["44'/1155'", "44'/354'"]
+  },
+  "MATRIX_XL": {
+    "appFlags": {"nanos": "0x000"},
+    "appName": "Enjin Matrix XL",
+    "curve": ["ed25519"],
+    "path": ["44'/1155'", "44'/354'"]
   },
   "MED": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
@@ -420,7 +450,7 @@
     "path": ["44'/3333'", "44'/1'"]
   },
   "SecurityKey": {
-    "appFlags": {"nanos2": "0x040", "nanox": "0x040"},
+    "appFlags": {"nanos2": "0x000", "nanox": "0x000"},
     "appName": "Security Key",
     "curve": ["secp256r1"],
     "path": ["5722689'", "5262163'"]
@@ -462,7 +492,7 @@
   "ZEC": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Zcash-new",
-    "curve": ["secp256k1"],
+    "curve": ["secp256k1", "ed25519"],
     "path": ["44'/133'"]
   },
   "ZTG": {
@@ -736,6 +766,12 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/237'", "44'/1'"]
   },
+  "dhp": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "dHealth",
+    "curve": ["secp256k1", "ed25519"],
+    "path": ["44'/10111'", "44'/1'"]
+  },
   "digibyte": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Digibyte",
@@ -867,12 +903,6 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/554'", "44'/60'", "44'/1'"]
   },
-  "flow": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
-    "appName": "FIO",
-    "curve": ["secp256k1"],
-    "path": ["44'/235'"]
-  },
   "ftm": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "Fantom FTM",
@@ -940,7 +970,7 @@
     "path": ["44'/904'"]
   },
   "helium-solana": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Helium-Solana",
     "curve": ["ed25519"],
     "path": ["44'/904'"]
@@ -1414,7 +1444,7 @@
     "path": ["44'/93'"]
   },
   "solana": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Solana",
     "curve": ["ed25519"],
     "path": ["44'/501'"]
@@ -1438,7 +1468,7 @@
     "path": ["44'/535348'", "13'", "17'"]
   },
   "staderlabs": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Staderlabs",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
