@@ -193,7 +193,7 @@
     "path": ["44'/235'"]
   },
   "FLOW": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Flow",
     "curve": ["secp256r1", "secp256k1"],
     "path": ["44'/539'", "44'/1'"]
