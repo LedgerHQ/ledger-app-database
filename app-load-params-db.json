@@ -1089,6 +1089,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "libertify": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "libertify",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "lido": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
     "appName": "Lido",
