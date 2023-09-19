@@ -549,6 +549,12 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/550'", "44'/1'"]
   },
+  "app-age": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appName": "Age identity",
+    "curve": ["secp256k1"],
+    "path": ["6383461'"]
+  },
   "ardor": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Ardor",
