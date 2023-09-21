@@ -1378,6 +1378,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "renec": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
+    "appName": "RENEC",
+    "curve": ["ed25519"],
+    "path": ["44'/501'"]
+  },
   "reosc": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "REOSC",
