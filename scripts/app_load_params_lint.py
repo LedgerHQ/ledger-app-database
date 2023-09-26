@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
+import json
+import difflib
 from argparse import ArgumentParser
 from pathlib import Path
 from app_load_params_utils import format_database
 from app_load_params_check import APP_LOAD_PARAMS_VALUE_CHECK
-import json
-import difflib
 
 
 def check_database_lint(database_path: Path):
@@ -15,7 +15,7 @@ def check_database_lint(database_path: Path):
         database = json.loads(database_str)
 
     for variant, params in database.items():
-        for param, value in params.items():
+        for param, _ in params.items():
             if param not in APP_LOAD_PARAMS_VALUE_CHECK:
                 print(f"[ERROR] Not allowed '{param}' in variant '{variant}'")
                 ret = -1
@@ -48,6 +48,12 @@ def check_database_appnames(database_path: Path):
         if db_rev_variant != variant:
             print(f"[ERROR] Conflict on appName between '{db_rev_variant}' and '{variant}'")
             ret = -1
+
+    app_names_list =[v["appName"].lower().replace(" ","").replace("_", "") for v in
+                     database.values()]
+    if len(app_names_list) != len(set(app_names_list)):
+        print("[ERROR] Duplicate on appName - Application name shall be unique.")
+        ret = -1
 
     if ret != 0:
         exit(ret)
