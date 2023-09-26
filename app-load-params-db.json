@@ -23,9 +23,9 @@
     "curve": ["secp256k1"],
     "path": ["44'/441'"]
   },
-  "AERGO1": {
+  "AERGO": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
-    "appName": "Aergo",
+    "appName": "Aergo1",
     "curve": ["secp256k1"],
     "path": ["44'/441'"]
   },
