@@ -604,7 +604,7 @@
     "path": ["44'/198'"]
   },
   "binance_chain": {
-    "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200", "stax": "0x200"},
     "appName": "Binance Chain",
     "curve": ["secp256k1"],
     "path": ["44'/714'"]
