@@ -40,20 +40,15 @@ def check_database_appnames(database_path: Path):
         database_str = f.read()
         database = json.loads(database_str)
 
-    db_rev = {v["appName"]: k for k, v in database.items()}
+    db_rev = {v["appName"].lower().replace(" ","").replace("_", "").replace("-", ""): k for k,
+              v in database.items()}
 
     for variant, params in database.items():
         app_name = params["appName"]
-        db_rev_variant = db_rev[app_name]
+        db_rev_variant = db_rev[app_name.lower().replace(" ","").replace("_", "").replace("-", "")]
         if db_rev_variant != variant:
-            print(f"[ERROR] Conflict on appName between '{db_rev_variant}' and '{variant}'")
+            print(f"[ERROR] Conflict on appName between '{db_rev_variant}' and '{variant}'. AppName shall be unique ('-',' ' and '_' are stripped)")
             ret = -1
-
-    app_names_list =[v["appName"].lower().replace(" ","").replace("_", "") for v in
-                     database.values()]
-    if len(app_names_list) != len(set(app_names_list)):
-        print("[ERROR] Duplicate on appName - Application name shall be unique.")
-        ret = -1
 
     if ret != 0:
         exit(ret)
