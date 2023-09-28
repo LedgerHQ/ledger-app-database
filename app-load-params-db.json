@@ -1593,6 +1593,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/195'"]
   },
+  "trustchain": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Trustchain",
+    "curve": ["secp256k1"],
+    "path": ["99'/99''"]
+  },
   "ubiq": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "Ubiq",
