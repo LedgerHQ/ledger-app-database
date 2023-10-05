@@ -1511,6 +1511,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'", "45'"]
   },
+  "starknet": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x000"},
+    "appName": "Starknet",
+    "curve": ["secp256k1"],
+    "path": ["m/2645'"]
+  },
   "stealth": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Stealth",
