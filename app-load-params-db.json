@@ -1571,14 +1571,14 @@
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Syscoin",
     "curve": ["secp256k1"],
-    "path": [null],
+    "path": ["44'/57'","45'/57'", "/84'/57'", "/86'/57'"],
     "path_slip21": ["LEDGER-Wallet policy"]
   },
   "syscoin_regtest": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Syscoin Regtest",
     "curve": ["secp256k1"],
-    "path": [null],
+    "path": ["44'/1'","45'/1'", "/84'/1'", "/86'/1'"],
     "path_slip21": ["LEDGER-Wallet policy"]
   },
   "tecracoin": {
