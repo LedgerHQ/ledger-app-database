@@ -1620,7 +1620,7 @@
     "path": ["45'", "1517992542'/1101353413'", "44'/889'", "44'/1'"]
   },
   "tron": {
-    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Tron",
     "curve": ["secp256k1"],
     "path": ["44'/195'"]
