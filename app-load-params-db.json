@@ -775,6 +775,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "blocx": {
+    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appName": "Blocx",
+    "curve": ["secp256k1"],
+    "path": ["44'/5'/950'"]
+  },
   "decred": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Decred",
