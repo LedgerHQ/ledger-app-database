@@ -159,6 +159,12 @@
     "curve": ["ed25519"],
     "path": ["44'/354'", "44'/434'"]
   },
+  "DSM": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Desmos",
+    "curve": ["secp256k1"],
+    "path": ["44'/852'", "44'/60'"]
+  },
   "EDG": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Edgeware",
@@ -792,11 +798,6 @@
     "appName": "Decred Test",
     "curve": ["secp256k1"],
     "path": ["44'/42'"]
-  },
-  "desmos": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
-    "appName": "Desmos",
-    "path": ["44'/852'"]
   },
   "dexon": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
