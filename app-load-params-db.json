@@ -924,6 +924,12 @@
     "curve": ["secp256r1"],
     "path": ["5583430'"]
   },
+  "figment": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "Figment",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "firo": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Firo",
@@ -1310,6 +1316,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/240'"]
   },
+  "p2p": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "p2p-staking",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "panacea": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Panacea",
@@ -1555,6 +1567,12 @@
     "appName": "StakeDAO",
     "curve": ["secp256k1"],
     "path": ["44'/60'", "45'"]
+  },
+  "stakekit": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "StakeKit",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
   },
   "starknet": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
