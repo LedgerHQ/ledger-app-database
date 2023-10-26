@@ -1316,6 +1316,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/240'"]
   },
+  "p2p": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "p2p-staking",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "panacea": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Panacea",
