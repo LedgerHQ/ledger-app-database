@@ -1149,7 +1149,7 @@
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Lisk Testnet",
     "curve": ["ed25519"],
-    "path": ["44'/1'"]
+    "path": ["44'/134'", "44'/1'"]
   },
   "litecoin": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
