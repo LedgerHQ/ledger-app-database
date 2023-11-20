@@ -984,6 +984,18 @@
     "curve": ["secp256k1"],
     "path": ["44'/1'"]
   },
+  "groestlcoin": {
+    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0xa50"},
+    "appName": "Groestlcoin",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
+  "groestlcoin_testnet": {
+    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0xa50"},
+    "appName": "Groestlcoin Test",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "harmony_one": {
     "appFlags": {"nanos": "0x40", "nanos2": "0x40", "nanox": "0x40"},
     "appName": "Harmony One",
