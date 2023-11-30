@@ -1253,7 +1253,7 @@
     "path": ["44'/165'", "44'/198'", "44'/229'"]
   },
   "near": {
-    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "NEAR",
     "curve": ["ed25519"],
     "path": ["44'/397'"]
