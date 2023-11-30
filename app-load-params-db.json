@@ -1323,6 +1323,12 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/60'", "44'/1'"]
   },
+  "okx_web3": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "OKX Web3",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'", "45'"]
+  },
   "ontology": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
     "appName": "ONT",
