@@ -1387,6 +1387,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "phantasma": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x000"},
+    "appName": "Phantasma",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'/0'/0/0"]
+  },
   "pirl": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "Pirl",
