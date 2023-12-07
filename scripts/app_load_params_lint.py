@@ -5,7 +5,7 @@ import difflib
 from argparse import ArgumentParser
 from pathlib import Path
 from app_load_params_utils import format_database
-from app_load_params_check import APP_LOAD_PARAMS_VALUE_CHECK
+from app_load_params_check import PARAMS_VALUE_CHECK
 
 
 def check_database_lint(database_path: Path):
@@ -16,7 +16,7 @@ def check_database_lint(database_path: Path):
 
     for variant, params in database.items():
         for param, _ in params.items():
-            if param not in APP_LOAD_PARAMS_VALUE_CHECK:
+            if param not in PARAMS_VALUE_CHECK:
                 print(f"[ERROR] Not allowed '{param}' in variant '{variant}'")
                 ret = -1
 

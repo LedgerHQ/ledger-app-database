@@ -4,7 +4,7 @@ from argparse import ArgumentParser
 from pathlib import Path
 from app_load_params_utils import load_database, save_database
 from makefile_dump import get_app_listvariants, get_app_listparams
-from app_load_params_check import APP_LOAD_PARAMS_VALUE_CHECK, parse_listapploadparams
+from app_load_params_check import PARAMS_VALUE_CHECK
 
 
 BUILD_PATH_LIST = {
@@ -90,19 +90,7 @@ def gen_app(app_path: Path, database_path: Path):
 
         print(app_params)
 
-        app_load_params_str = app_params["APP_LOAD_PARAMS"]
-        app_load_params = parse_listapploadparams(app_load_params_str)
-        database_params = {}
-        for key in APP_LOAD_PARAMS_VALUE_CHECK:
-            if key in app_load_params:
-                if key == "appName":
-                    database_params["appName"] = app_load_params["appName"][0]
-                elif key == "appFlags":
-                    flags = database.get(variant, {}).get("appFlags", {})
-                    flags[target] = app_load_params["appFlags"][0]
-                    database_params["appFlags"] = flags
-                else:
-                    database_params[key] = app_load_params[key]
+        database_params = {key: app_params[key] for key in PARAMS_VALUE_CHECK if key in app_params}
 
         # Drop apps which don't have a path set
         if not database_params.get("path", [None])[0]:

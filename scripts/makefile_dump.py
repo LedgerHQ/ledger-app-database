@@ -29,6 +29,13 @@ listparams:
 \t@echo SDK_NAME=$(SDK_NAME)
 \t@echo SDK_VERSION=$(SDK_VERSION)
 \t@echo SDK_HASH=$(SDK_HASH)
+\t@echo appFlags=$(APP_FLAGS_APP_LOAD_PARAMS)
+\t@echo curve=$(CURVE_APP_LOAD_PARAMS)
+\t@echo path=$(PATH_APP_LOAD_PARAMS)
+\t@echo path_slip21=$(PATH_SLIP21_APP_LOAD_PARAMS)
+\t@echo tlvraw=$(TLVRAW_APP_LOAD_PARAMS)
+\t@echo dep=$(DEP_APP_LOAD_PARAMS)
+\t@echo nocrc=$(ENABLE_NOCRC_APP_LOAD_PARAMS)
 \t@echo Stop dumping params
 """
 
@@ -97,6 +104,12 @@ def get_app_listparams(app_build_path: Path,
             listparams["APP_LOAD_PARAMS"] = app_load_params_str
         else:
             key, value = line.split("=")
+            if not value:
+                # Exclude Makefile variable with no value
+                continue
+            if key in ["curve", "path", "tlvraw", "dep"]:
+                # Exposes as list when multiple value can be used
+                value = value.strip().split(" ")
             listparams[key] = value
 
     return listparams
