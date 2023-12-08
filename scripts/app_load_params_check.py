@@ -6,11 +6,11 @@ import json
 
 
 PARAMS_VALUE_CHECK = {
-    "curve",
-    "path",
-    "path_slip21",
-    "appName",
-    "appFlags",
+    "curve": list,
+    "path": list,
+    "path_slip21": str,
+    "appName": str,
+    "appFlags": str,
 }
 
 
@@ -21,7 +21,7 @@ def check_manifest(manifest: dict, database: dict) -> None:
         target = data["TARGET"]
         print(f"Checking for target '{target}' and variant '{variant}'")
 
-        app_params = {key: data[key] for key in PARAMS_VALUE_CHECK if key in data}
+        app_params = {key: data[key] for key in PARAMS_VALUE_CHECK.keys() if key in data}
         app_params["appName"] = data["APPNAME"]
         print("Retrieved params:")
         print(json.dumps(app_params, indent=4))
@@ -34,13 +34,10 @@ def check_manifest(manifest: dict, database: dict) -> None:
             break
 
         # Check that the params match with the one from the database
-        for key in PARAMS_VALUE_CHECK:
+        for key in PARAMS_VALUE_CHECK.keys():
             app_params_ref_value = app_params_ref.get(key)
             app_params_value = app_params.get(key)
             if key == "appFlags":
-                if not app_params_value:
-                    app_params_value = "0x000"
-
                 if app_params_value.startswith("0x"):
                     app_params_value = int(app_params_value, 16)
                 else:
@@ -56,9 +53,14 @@ def check_manifest(manifest: dict, database: dict) -> None:
                 else:
                     app_params_ref_value = int(app_params_ref_value)
 
-            if not app_params_value == app_params_ref_value:
-                print(f"[ERROR] Unexpected value for '{key}' ({app_params_value} vs {app_params_ref_value})")
-                ret = -1
+            if PARAMS_VALUE_CHECK[key] == list:
+                if not set(app_params_value) == set(app_params_ref_value):
+                    print(f"[ERROR] Unexpected value for '{key}' ({app_params_value} vs {app_params_ref_value})")
+                    ret = -1
+            else:
+                if not app_params_value == app_params_ref_value:
+                    print(f"[ERROR] Unexpected value for '{key}' ({app_params_value} vs {app_params_ref_value})")
+                    ret = -1
 
     return ret
 
