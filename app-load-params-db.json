@@ -1375,12 +1375,6 @@
     "curve": ["secp256k1"],
     "path": ["44'/44'"]
   },
-  "pbol": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
-    "appName": "PluginBoilerplate",
-    "curve": ["secp256k1"],
-    "path": ["44'/60'"]
-  },
   "peercoin": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Peercoin",
@@ -1410,6 +1404,12 @@
     "appName": "PlatON",
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/486'", "44'/1'"]
+  },
+  "pluginboilerplate": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "PluginBoilerplate",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
   },
   "poa": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
