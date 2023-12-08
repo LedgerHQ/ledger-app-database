@@ -53,9 +53,14 @@ def check_manifest(manifest: dict, database: dict) -> None:
                 else:
                     app_params_ref_value = int(app_params_ref_value)
 
-            if not app_params_value == app_params_ref_value:
-                print(f"[ERROR] Unexpected value for '{key}' ({app_params_value} vs {app_params_ref_value})")
-                ret = -1
+            if PARAMS_VALUE_CHECK[key] == list:
+                if not set(app_params_value) == set(app_params_ref_value):
+                    print(f"[ERROR] Unexpected value for '{key}' ({app_params_value} vs {app_params_ref_value})")
+                    ret = -1
+            else:
+                if not app_params_value == app_params_ref_value:
+                    print(f"[ERROR] Unexpected value for '{key}' ({app_params_value} vs {app_params_ref_value})")
+                    ret = -1
 
     return ret
 
