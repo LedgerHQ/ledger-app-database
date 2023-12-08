@@ -79,14 +79,6 @@ def gen_app(app_path: Path, database_path: Path):
     for variant in variants:
         app_params = get_app_listparams(app_full_path,
                                         variant_param=f"{variant_param_name}={variant}")
-        target = app_params["TARGET"]
-
-        if target == "stax":
-            with open(app_full_path / "Makefile") as f:
-                content = f.read()
-            if "TARGET_STAX" not in content:
-                print("Skipping generation due to missing stax support")
-                return
 
         print(app_params)
 
