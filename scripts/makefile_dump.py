@@ -112,6 +112,12 @@ def get_app_listparams(app_build_path: Path,
                 value = value.strip().split(" ")
             listparams[key] = value
 
+    # "path" and "appFlags" params should always be present
+    if "path" not in listparams:
+        listparams["path"] = [None]
+    if "appFlags" not in listparams:
+        listparams["appFlags"] = "0x000"
+
     return listparams
 
 
