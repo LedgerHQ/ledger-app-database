@@ -15,9 +15,33 @@ def check_database_lint(database_path: Path):
         database = json.loads(database_str)
 
     for variant, params in database.items():
-        for param, _ in params.items():
-            if param not in PARAMS_VALUE_CHECK:
+        for param, value in params.items():
+            if param not in PARAMS_VALUE_CHECK.keys():
                 print(f"[ERROR] Not allowed '{param}' in variant '{variant}'")
+                ret = -1
+
+            # Special case for appFlags which value is unique per device
+            if param == "appFlags":
+                if not isinstance(value, dict):
+                    print(f"[ERROR] Wrong type for '{param}' in variant '{variant}'")
+                    ret = -1
+                else:
+                    for device, device_flags in value.items():
+                        if device not in ["nanos", "nanox", "nanos2", "stax"]:
+                            print(f"[ERROR] Unknown device type '{device}' in variant '{variant}'")
+                            ret = -1
+                        elif not isinstance(device_flags, str):
+                            print(f"[ERROR] Wrong type for '{param}' in variant '{variant}'")
+                        elif not device_flags.startswith("0x"):
+                            print(f"[ERROR] Device appFlags should start with '0x' in variant '{variant}'")
+
+            elif not isinstance(value, PARAMS_VALUE_CHECK[param]):
+                print(f"[ERROR] Wrong type for '{param}' in variant '{variant}'")
+                ret = -1
+
+        for param in ["appName", "appFlags", "path"]:
+            if param not in params:
+                print(f"[ERROR] Missing '{param}' in variant '{variant}'")
                 ret = -1
 
     # Splitlines put keep line ends and escape it to make them visible.

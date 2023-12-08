@@ -82,7 +82,7 @@ def gen_app(app_path: Path, database_path: Path):
 
         print(app_params)
 
-        database_params = {key: app_params[key] for key in PARAMS_VALUE_CHECK if key in app_params}
+        database_params = {key: app_params[key] for key in PARAMS_VALUE_CHECK.keys() if key in app_params}
 
         # Drop apps which don't have a path set
         if not database_params.get("path", [None])[0]:

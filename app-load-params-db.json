@@ -545,6 +545,7 @@
     "path": ["44'/457'"]
   },
   "aion": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x000"},
     "appName": "Aion",
     "curve": ["ed25519"],
     "path": ["44'/425'"]
@@ -650,7 +651,7 @@
     "appName": "Bitcoin",
     "curve": ["secp256k1"],
     "path": [null],
-    "path_slip21": ["LEDGER-Wallet policy"]
+    "path_slip21": "LEDGER-Wallet policy"
   },
   "bitcoin_cash": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
@@ -681,7 +682,7 @@
     "appName": "Bitcoin Test",
     "curve": ["secp256k1"],
     "path": [null],
-    "path_slip21": ["LEDGER-Wallet policy"]
+    "path_slip21": "LEDGER-Wallet policy"
   },
   "bitcoin_testnet_legacy": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
@@ -702,7 +703,7 @@
     "path": ["45'", "1517992542'/1101353413'", "44'/60'", "44'/1'"]
   },
   "btec": {
-    "appFlags": {"nanos2": "0", "nanox": "0", "stax": "0"},
+    "appFlags": {"nanos2": "0x000", "nanox": "0x000", "stax": "0x000"},
     "appName": "BTEC",
     "curve": ["secp256k1", "bls12381g1"],
     "path": ["44'/60'", "12381/3600"]
@@ -1445,7 +1446,7 @@
     "appName": "Qtum",
     "curve": ["secp256k1"],
     "path": ["44'/88'", "45'/88'", "48'/88'", "49'/88'", "84'/88'", "86'/88'", "44'/2301'", "45'/2301'", "48'/2301'", "49'/2301'", "84'/2301'", "86'/2301'", "0'/45342'", "20698'/3053'/12648430'"],
-    "path_slip21": ["LEDGER-Wallet policy"]
+    "path_slip21": "LEDGER-Wallet policy"
   },
   "qtum_legacy": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
@@ -1458,7 +1459,7 @@
     "appName": "Qtum Test",
     "curve": ["secp256k1"],
     "path": ["44'/1'", "45'/1'", "48'/1'", "49'/1'", "84'/1'", "86'/1'", "0'/45342'", "20698'/3053'/12648430'"],
-    "path_slip21": ["LEDGER-Wallet policy"]
+    "path_slip21": "LEDGER-Wallet policy"
   },
   "quickswap": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
@@ -1651,14 +1652,14 @@
     "appName": "Syscoin",
     "curve": ["secp256k1"],
     "path": ["44'/57'", "45'/57'", "84'/57'", "86'/57'"],
-    "path_slip21": ["LEDGER-Wallet policy"]
+    "path_slip21": "LEDGER-Wallet policy"
   },
   "syscoin_test": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Syscoin Test",
     "curve": ["secp256k1"],
     "path": ["0'/1'", "44'/1'", "45'/1'", "84'/1'", "86'/1'", "48'/1'", "49'/1'"],
-    "path_slip21": ["LEDGER-Wallet policy"]
+    "path_slip21": "LEDGER-Wallet policy"
   },
   "tecracoin": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
