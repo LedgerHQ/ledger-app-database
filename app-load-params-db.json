@@ -1034,7 +1034,7 @@
     "path": ["44'/280'/0'"]
   },
   "hedera": {
-    "appFlags": {"nanos": "0x040", "nanos2": "0x040", "nanox": "0x240", "stax": "0x240"},
+    "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200", "stax": "0x200"},
     "appName": "Hedera",
     "curve": ["ed25519"],
     "path": ["44'/3030'"]
