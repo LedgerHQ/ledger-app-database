@@ -738,8 +738,8 @@
     "curve": ["secp256k1"],
     "path": ["44'/52752'", "44'/60'/0'/0/0", "44'/60'/0'", "44'/60'/0'/0"]
   },
-  "cian": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
+  "CIAN": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "CIAN",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
