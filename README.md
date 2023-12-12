@@ -21,4 +21,4 @@ https://github.com/LedgerHQ/app-boilerplate
 
 ### How to add support for your application
 
-If your application is not already in the database or if you want to update its content (for example to request for another derivation path), please create a Pr with the requested changes.
+If your application is not already in the database or if you want to update its content (for example to request for another derivation path), please create a Pr with the requested changes. You can use this [script](https://github.com/LedgerHQ/ledger-app-database/blob/main/scripts/app_load_params_gen_db.py) with `--app_path` parameter to easily update the ledger app database with your own app data.
