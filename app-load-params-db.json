@@ -118,6 +118,12 @@
     "curve": ["ed25519"],
     "path": ["44'/747'", "44'/354'"]
   },
+  "CIAN": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "CIAN",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "CKB": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x240", "stax": "0x240"},
     "appName": "Nervos",
@@ -737,12 +743,6 @@
     "appName": "Celo",
     "curve": ["secp256k1"],
     "path": ["44'/52752'", "44'/60'/0'/0/0", "44'/60'/0'", "44'/60'/0'/0"]
-  },
-  "CIAN": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
-    "appName": "CIAN",
-    "curve": ["secp256k1"],
-    "path": ["44'/60'"]
   },
   "cometh": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
