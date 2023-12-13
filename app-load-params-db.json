@@ -1316,6 +1316,7 @@
   "oasis_validator": {
     "appFlags": {"nanos": "0x000"},
     "appName": "OasisVal",
+    "curve": ["ed25519"],
     "path": ["43'/474'"]
   },
   "oasys": {
