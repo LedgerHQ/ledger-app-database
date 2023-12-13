@@ -80,9 +80,24 @@ def gen_app(app_path: Path, database_path: Path):
         app_params = get_app_listparams(app_full_path,
                                         variant_param=f"{variant_param_name}={variant}")
 
-        print(app_params)
+        # Only exists as "APPNAME", so duplicate it as "appName"
+        if "APPNAME" in app_params:
+            app_params["appName"] = app_params["APPNAME"]
+
+        # Back up the already existing appFlags since they will be overwritten by the next loop
+        if variant in database and "appFlags" in database[variant]:
+            flags = database[variant]["appFlags"]
+        else:
+            flags = {}
 
         database_params = {key: app_params[key] for key in PARAMS_VALUE_CHECK.keys() if key in app_params}
+
+        # Add the newly added appFlags to the previously backed up ones
+        if "appFlags" in database_params:
+            flags[app_params["TARGET"]] = database_params["appFlags"]
+            database_params["appFlags"] = flags
+
+        print(database_params)
 
         # Drop apps which don't have a path set
         if not database_params.get("path", [None])[0]:
