@@ -1348,6 +1348,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
+  "origin": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "Origin",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "oxen": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
     "appName": "Oxen",
