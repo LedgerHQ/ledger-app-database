@@ -532,6 +532,12 @@
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/133'", "44'/1'"]
   },
+  "ZNN": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Zenon",
+    "curve": ["ed25519"],
+    "path": ["44'/73404'"]
+  },
   "ZTG": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Zeitgeist",
