@@ -1600,6 +1600,12 @@
     "curve": ["secp256k1"],
     "path": ["45'", "1517992542'/1101353413'", "44'/554'", "44'/60'", "44'/1'"]
   },
+  "spool": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "Spool",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "squid": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
     "appName": "squid",
