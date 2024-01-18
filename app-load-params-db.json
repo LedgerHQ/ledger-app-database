@@ -1570,6 +1570,12 @@
     "curve": ["ed25519"],
     "path": ["44'/19165'"]
   },
+  "seed_tool": {
+    "appFlags": {"nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
+    "appName": "Seed Tool",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "shiden": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "Shiden EVM",
