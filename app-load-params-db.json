@@ -322,7 +322,7 @@
     "path": ["44'/371'"]
   },
   "MISC": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "MISC",
     "curve": ["secp256k1"],
     "path": ["77738367'"]
