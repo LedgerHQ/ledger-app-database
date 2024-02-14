@@ -1672,6 +1672,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "sui": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appName": "Sui",
+    "curve": ["ed25519"],
+    "path": ["44'/784'"]
+  },
   "swell": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Swell",
