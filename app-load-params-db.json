@@ -1128,6 +1128,12 @@
     "appName": "IOTA Legacy",
     "path": ["44'/4218'"]
   },
+  "kadena": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appName": "Kadena",
+    "curve": ["ed25519"],
+    "path": ["44'/626'"]
+  },
   "kardiachain": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
     "appName": "KardiaChain",
@@ -1436,6 +1442,12 @@
     "appName": "POAP",
     "curve": ["secp256k1"],
     "path": ["44'/60'", "45'"]
+  },
+  "pocket": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appName": "Pocket",
+    "curve": ["ed25519"],
+    "path": ["44'/635'"]
   },
   "polygon": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
