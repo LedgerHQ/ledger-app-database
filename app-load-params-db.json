@@ -327,6 +327,12 @@
     "curve": ["secp256k1"],
     "path": ["77738367'"]
   },
+  "MPC": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Partisia Blockchain",
+    "curve": ["secp256k1"],
+    "path": ["44'/3757'"]
+  },
   "NAM": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Namada",
