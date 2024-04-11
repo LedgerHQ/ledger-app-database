@@ -446,7 +446,8 @@
     "path": ["44'/819'"]
   },
   "RUNE": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "curve": ["secp256k1"],
     "appName": "THORChain",
     "path": ["44'/931'"]
   },
