@@ -27,7 +27,7 @@ def check_database_lint(database_path: Path):
                     ret = -1
                 else:
                     for device, device_flags in value.items():
-                        if device not in ["nanos", "nanox", "nanos2", "stax"]:
+                        if device not in ["flex", "nanos", "nanox", "nanos2", "stax"]:
                             print(f"[ERROR] Unknown device type '{device}' in variant '{variant}'")
                             ret = -1
                         elif not isinstance(device_flags, str):
