@@ -59,6 +59,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/118'", "44'/60'"]
   },
+  "AVAIL": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Avail",
+    "curve": ["ed25519"],
+    "path": ["44'/709'"]
+  },
   "AVAX": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Avalanche",
