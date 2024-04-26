@@ -979,18 +979,6 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
-  "flare": {
-    "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
-    "appName": "Flare",
-    "curve": ["secp256k1"],
-    "path": ["45'", "1517992542'/1101353413'", "44'/554'", "44'/60'", "44'/1'"]
-  },
-  "flare_coston": {
-    "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
-    "appName": "Flare Coston",
-    "curve": ["secp256k1"],
-    "path": ["45'", "1517992542'/1101353413'", "44'/554'", "44'/60'", "44'/1'"]
-  },
   "ftm": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "Fantom FTM",
@@ -1008,12 +996,6 @@
     "appName": "GoChain",
     "curve": ["secp256k1"],
     "path": ["45'", "44'/6060'", "44'/1'"]
-  },
-  "goerli": {
-    "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
-    "appName": "Eth Goerli",
-    "curve": ["secp256k1", "bls12381g1"],
-    "path": ["45'", "1517992542'/1101353413'", "44'/60'", "12381/3600", "44'/1'"]
   },
   "grin": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
@@ -1175,12 +1157,6 @@
     "appName": "Komodo",
     "curve": ["secp256k1"],
     "path": [null]
-  },
-  "kusd": {
-    "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
-    "appName": "kUSD",
-    "curve": ["secp256k1"],
-    "path": ["45'", "1517992542'/1101353413'", "44'/91927009'", "44'/1'"]
   },
   "lbry": {
     "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
@@ -1570,12 +1546,6 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
-  "ropsten": {
-    "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
-    "appName": "Eth Ropsten",
-    "curve": ["secp256k1", "bls12381g1"],
-    "path": ["45'", "1517992542'/1101353413'", "44'/60'", "12381/3600", "44'/1'"]
-  },
   "rsk": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
     "appName": "RSK",
@@ -1773,12 +1743,6 @@
     "appName": "ThunderCore",
     "curve": ["secp256k1"],
     "path": ["45'", "44'/1001'", "44'/1'"]
-  },
-  "tobalaba": {
-    "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40"},
-    "appName": "Tobalaba",
-    "curve": ["secp256k1"],
-    "path": ["45'", "1517992542'/1101353413'", "44'/401697'", "44'/1'"]
   },
   "tomochain": {
     "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
