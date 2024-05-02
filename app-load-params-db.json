@@ -1420,7 +1420,7 @@
     "path": ["45'", "1517992542'/1101353413'", "44'/486'", "44'/1'"]
   },
   "pluginboilerplate": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "PluginBoilerplate",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
