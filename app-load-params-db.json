@@ -689,6 +689,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "bitcoin_clone_boilerplate": {
+    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appName": "Bitcoin clone boilerplate",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "bitcoin_gold": {
     "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin Gold",
