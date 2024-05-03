@@ -1230,7 +1230,7 @@
     "path": ["45'", "44'/76'", "44'/1'"]
   },
   "monero": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Monero",
     "curve": ["secp256k1"],
     "path": ["44'/128'"]
