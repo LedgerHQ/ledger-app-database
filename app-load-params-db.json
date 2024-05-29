@@ -1188,11 +1188,17 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'", "45'"]
   },
-  "lisk_testnet": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
-    "appName": "Lisk Testnet",
-    "curve": ["ed25519"],
-    "path": ["44'/134'", "44'/1'"]
+  "lisk": {
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Lisk",
+    "curve": ["secp256k1"],
+    "path": ["44'/134'"]
+  },
+  "lisk_sepolia": {
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Lisk Sepolia",
+    "curve": ["secp256k1"],
+    "path": ["44'/134'"]
   },
   "litecoin": {
     "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
