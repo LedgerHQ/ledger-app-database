@@ -1261,13 +1261,13 @@
     "path": ["45'", "44'/60'", "44'/1'"]
   },
   "mimblewimble_coin": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xA00"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "MimbleWimble Coin",
     "curve": ["secp256k1"],
     "path": ["44'/593'"]
   },
   "mimblewimble_coin_floonet": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "MimbleWimble Coin Floonet",
     "curve": ["secp256k1"],
     "path": ["44'/1'"]
