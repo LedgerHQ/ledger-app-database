@@ -1233,6 +1233,7 @@
   "mina": {
     "appFlags": {"flex": "0x240", "nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "Mina",
+    "curve": ["secp256k1"],
     "path": ["44'/12586'"]
   },
   "mix": {
