@@ -511,7 +511,7 @@
     "path": ["44'/3333'", "44'/1'"]
   },
   "SecurityKey": {
-    "appFlags": {"flex": "0x000", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x000", "stax": "0x000"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x000", "stax": "0x200"},
     "appName": "Security Key",
     "curve": ["secp256r1"],
     "path": ["5722689'", "5262163'"]
