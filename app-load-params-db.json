@@ -1297,7 +1297,7 @@
     "path": ["44'/43'", "44'/1'"]
   },
   "neo": {
-    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appFlags": {"flex": "0x240", "nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "NEO",
     "curve": ["secp256r1"],
     "path": ["44'/888'", "44'/1024'"]
