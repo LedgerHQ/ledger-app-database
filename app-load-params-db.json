@@ -1725,7 +1725,7 @@
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Swell",
     "curve": ["secp256k1"],
-    "path": ["44'/60'", "45'"]
+    "path": ["44'/60'"]
   },
   "syscoin": {
     "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
