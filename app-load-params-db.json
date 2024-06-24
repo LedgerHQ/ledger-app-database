@@ -810,6 +810,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/52752'", "44'/60'/0'/0/0", "44'/60'/0'", "44'/60'/0'/0"]
   },
+  "chorusplugin": {
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "ChorusPlugin",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "cometh": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
     "appName": "Cometh",
