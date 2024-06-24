@@ -263,6 +263,12 @@
     "appName": "IOV",
     "path": ["44'/234'"]
   },
+  "IRON": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Ironfish",
+    "curve": ["ed25519"],
+    "path": ["44'/1338'"]
+  },
   "IoTeX": {
     "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200"},
     "appName": "IoTeX",
