@@ -1082,7 +1082,7 @@
     "path": ["44'/1023'"]
   },
   "harvest": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
+    "appFlags": {"appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Harvest",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
