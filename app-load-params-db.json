@@ -388,7 +388,7 @@
     "path": ["44'/1003'", "44'/354'"]
   },
   "OpenPGP": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x000", "stax": "0x000"},
+    "appFlags": {"flex": "0x000", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x000", "stax": "0x000"},
     "appName": "OpenPGP",
     "curve": ["secp256k1"],
     "path": ["2152157255'"]
