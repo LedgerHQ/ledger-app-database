@@ -496,7 +496,7 @@
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Spacemesh",
     "curve": ["ed25519"],
-    "path": ["44'/540'"]
+    "path": ["44'/540'", "44'/1'"]
   },
   "STATEMINE": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
