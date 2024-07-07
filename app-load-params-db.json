@@ -1716,7 +1716,7 @@
     "path": [null]
   },
   "stellar": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Stellar",
     "curve": ["ed25519"],
     "path": ["44'/148'"]
