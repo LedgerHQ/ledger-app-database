@@ -1578,7 +1578,7 @@
     "path": [null]
   },
   "recovery_check": {
-    "appFlags": {"nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
+    "appFlags": {"flex": "0x10", "nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
     "appName": "Recovery Check",
     "curve": ["secp256k1"],
     "path": [null]
