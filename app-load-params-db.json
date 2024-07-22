@@ -1693,7 +1693,7 @@
   },
   "squid": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
-    "appName": "squid",
+    "appName": "Squid",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
