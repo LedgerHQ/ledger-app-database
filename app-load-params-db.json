@@ -54,7 +54,7 @@
     "path": ["44'/810'", "44'/354'"]
   },
   "ATOM": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Cosmos",
     "curve": ["secp256k1"],
     "path": ["44'/118'", "44'/60'"]
