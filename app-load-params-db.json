@@ -1668,7 +1668,7 @@
     "path": ["45'", "44'/60'", "44'/1'"]
   },
   "sia": {
-    "appFlags": {"nanos": "0x0", "nanos2": "0x0", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x0", "nanos2": "0x0", "nanox": "0x200", "stax": "0x200"},
     "appName": "Sia",
     "curve": ["ed25519"],
     "path": ["44'/93'"]
