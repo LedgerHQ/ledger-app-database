@@ -628,6 +628,12 @@
     "curve": ["secp256k1"],
     "path": ["45'", "44'/200625'", "44'/1'"]
   },
+  "alephium": {
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Alephium",
+    "curve": ["secp256k1"],
+    "path": ["44'/1234'"]
+  },
   "alkemi": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Alkemi",
