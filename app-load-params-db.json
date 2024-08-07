@@ -1207,7 +1207,7 @@
     "path": ["44'/4218'"]
   },
   "kadena": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Kadena",
     "curve": ["ed25519"],
     "path": ["44'/626'"]
