@@ -946,7 +946,7 @@
     "path": ["44'/508'"]
   },
   "eigenlayer": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "EigenLayer",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
