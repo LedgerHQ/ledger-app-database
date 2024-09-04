@@ -1364,7 +1364,7 @@
     "path": ["44'/229'"]
   },
   "oasis": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Oasis",
     "curve": ["ed25519", "secp256k1"],
     "path": ["44'/474'", "44'/60'", "44'/354'"]
