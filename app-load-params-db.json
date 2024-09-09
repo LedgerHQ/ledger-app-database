@@ -42,7 +42,7 @@
     "path": ["44'/472'", "44'/1'"]
   },
   "ASTR": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Astar",
     "curve": ["ed25519"],
     "path": ["44'/810'", "44'/354'"]
@@ -83,7 +83,7 @@
     "path": ["44'/118'"]
   },
   "AZERO": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Aleph Zero",
     "curve": ["ed25519"],
     "path": ["44'/643'"]
@@ -430,7 +430,7 @@
     "path": ["44'/60'"]
   },
   "PEN": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Pendulum",
     "curve": ["ed25519"],
     "path": ["44'/354'"]
