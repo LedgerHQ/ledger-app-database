@@ -375,6 +375,12 @@
     "curve": ["ed25519"],
     "path": ["44'/877'", "44'/1'"]
   },
+  "NBT": {
+    "appFlags": {"flex": "0x200", "stax": "0x200"},
+    "appName": "NBGL Tests",
+    "curve": ["secp256k1"],
+    "path": ["44'/1'"]
+  },
   "NEO3": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "NEO N3",
