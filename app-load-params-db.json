@@ -298,6 +298,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/111111'"]
   },
+  "kelp": {
+    "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "Kelp",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "KHALA": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Khala",
