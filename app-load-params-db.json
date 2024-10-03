@@ -996,7 +996,7 @@
     "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
     "appName": "Ethereum Classic",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/61'", "44'/1'"]
+    "path": ["45'", "44'/61'", "44'/60'", "44'/1'"]
   },
   "ethergem": {
     "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
