@@ -269,12 +269,6 @@
     "appName": "IOV",
     "path": ["44'/234'"]
   },
-  "ironfish-dkg": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
-    "appName": "Ironfish DKG",
-    "curve": ["ed25519"],
-    "path": ["44'/1338'"]
-  },
   "IRON": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Ironfish",
@@ -1206,6 +1200,12 @@
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
     "appName": "IOTA Legacy",
     "path": ["44'/4218'"]
+  },
+  "ironfish-dkg": {
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Ironfish DKG",
+    "curve": ["ed25519"],
+    "path": ["44'/1338'"]
   },
   "kadena": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
