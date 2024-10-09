@@ -617,6 +617,18 @@
     "curve": ["ed25519"],
     "path": ["44'/354'"]
   },
+  "acre": {
+    "appFlags": {"flex": "0xa10", "nanos2": "0xa10", "nanox": "0xa10", "stax": "0xa10"},
+    "appName": "Acre",
+    "curve": ["secp256k1"],
+    "path": ["44'/0'", "44'/1'", "48'/0'", "48'/1'", "49'/0'", "49'/1'", "84'/0'", "84'/1'", "86'/0'", "86'/1'"]
+  },
+  "acre_testnet": {
+    "appFlags": {"flex": "0xa10", "nanos2": "0xa10", "nanox": "0xa10", "stax": "0xa10"},
+    "appName": "Acre Test",
+    "curve": ["secp256k1"],
+    "path": ["44'/0'", "44'/1'", "48'/0'", "48'/1'", "49'/0'", "49'/1'", "84'/0'", "84'/1'", "86'/0'", "86'/1'"]
+  },
   "aeternity": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
     "appName": "Aeternity",
