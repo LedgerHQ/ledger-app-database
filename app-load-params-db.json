@@ -917,7 +917,7 @@
   },
   "demo": {
     "appFlags": {"flex": "0x200", "stax": "0x200"},
-    "appName": "Demo App",
+    "appName": "Ledger Demo",
     "curve": ["secp256k1"],
     "path": ["44'/1'"]
   },
