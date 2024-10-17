@@ -178,7 +178,7 @@
     "path": ["44'/594'"]
   },
   "DOT": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Polkadot",
     "curve": ["ed25519"],
     "path": ["44'/354'"]
