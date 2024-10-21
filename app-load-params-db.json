@@ -1645,7 +1645,7 @@
     "path": ["44'/19165'"]
   },
   "seed_tool": {
-    "appFlags": {"nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
+    "appFlags": {"flex": "0x10", "nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
     "appName": "Seed Tool",
     "curve": ["secp256k1"],
     "path": [null]
