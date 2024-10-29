@@ -1400,7 +1400,7 @@
     "path": ["44'/60'", "45'", "44'/1'"]
   },
   "nimiq": {
-    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
+    "appFlags": {"flex": "0x240", "nanos": "0x40", "nanos2": "0x40", "nanox": "0x240", "stax": "0x240"},
     "appName": "Nimiq",
     "curve": ["ed25519"],
     "path": ["44'/242'"]
