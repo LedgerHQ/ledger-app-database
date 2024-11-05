@@ -60,7 +60,7 @@
     "path": ["44'/118'", "44'/60'"]
   },
   "AVAIL": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Avail",
     "curve": ["ed25519"],
     "path": ["44'/709'"]
@@ -247,7 +247,7 @@
     "path": ["44'/539'", "44'/1'"]
   },
   "FLR": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Flare Network",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
@@ -376,7 +376,7 @@
     "path": ["44'/3757'"]
   },
   "NAM": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Namada",
     "curve": ["ed25519"],
     "path": ["44'/877'", "44'/1'"]
@@ -841,9 +841,9 @@
     "curve": ["secp256k1"],
     "path": ["44'/52752'", "44'/60'/0'/0/0", "44'/60'/0'", "44'/60'/0'/0"]
   },
-  "chorusplugin": {
+  "chorusone": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
-    "appName": "ChorusPlugin",
+    "appName": "ChorusOne",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
@@ -1232,7 +1232,7 @@
     "path": ["44'/626'"]
   },
   "kelp": {
-    "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appFlags": {"flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Kelp",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
@@ -1296,6 +1296,12 @@
     "appName": "Litecoin",
     "curve": ["secp256k1"],
     "path": [null]
+  },
+  "midas": {
+    "appFlags": {"flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "Midas",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
   },
   "mimblewimble_coin": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
@@ -1394,7 +1400,7 @@
     "path": ["44'/60'", "45'", "44'/1'"]
   },
   "nimiq": {
-    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
+    "appFlags": {"flex": "0x240", "nanos": "0x40", "nanos2": "0x40", "nanox": "0x240", "stax": "0x240"},
     "appName": "Nimiq",
     "curve": ["ed25519"],
     "path": ["44'/242'"]
@@ -1645,7 +1651,7 @@
     "path": ["44'/19165'"]
   },
   "seed_tool": {
-    "appFlags": {"nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
+    "appFlags": {"flex": "0x10", "nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
     "appName": "Seed Tool",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1791,7 +1797,7 @@
   "tezos_baking": {
     "appFlags": {"flex": "0x240", "nanos": "0x040", "nanos2": "0x040", "nanox": "0x240", "stax": "0x240"},
     "appName": "Tezos Baking",
-    "curve": ["ed25519", "secp256k1", "secp256r1"],
+    "curve": ["ed25519", "secp256k1", "secp256r1", "bls12381g1"],
     "path": ["44'/1729'"]
   },
   "tezos_wallet": {
