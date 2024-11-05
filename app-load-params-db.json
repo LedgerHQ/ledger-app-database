@@ -1909,7 +1909,7 @@
     "path": ["45'", "44'/77777'", "44'/1'"]
   },
   "xah": {
-    "appFlags": {"nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
     "appName": "XAH",
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/144'"]
