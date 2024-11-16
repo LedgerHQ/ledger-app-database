@@ -130,6 +130,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/931'"]
   },
+  "CCD": {
+    "appFlags": {"nanos2": "0x000", "nanox": "0x200", "stax": "0x200", "flex": "0x200"},
+    "appName": "Concordium",
+    "curve": ["secp256k1"],
+    "path": ["44'/919'", "1105'/0'"]
+  },
   "CFG": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Centrifuge",
