@@ -1220,11 +1220,6 @@
     "appName": "IOTA Legacy",
     "path": ["44'/4218'"]
   },
-  "iotex": {
-    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
-    "appName": "IoTeX",
-    "path": ["44'/304'"]
-  },
   "ironfish-dkg": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Ironfish DKG",
