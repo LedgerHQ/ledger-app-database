@@ -560,6 +560,12 @@
     "curve": ["ed25519"],
     "path": ["44'/607'"]
   },
+  "UM": {
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Penumbra",
+    "curve": ["secp256k1"],
+    "path": ["44'/6532'"]
+  },
   "WEST": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Waves Enterprise",
