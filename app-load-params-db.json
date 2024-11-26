@@ -1221,6 +1221,12 @@
     "appName": "IOTA Legacy",
     "path": ["44'/4218'"]
   },
+  "iota_rebased": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appName": "IOTA Rebased",
+    "curve": ["ed25519"],
+    "path": ["44'/1'", "44'/4218'"]
+  },
   "iotex": {
     "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
     "appName": "IoTeX",
