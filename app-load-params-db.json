@@ -472,12 +472,6 @@
     "curve": ["ed25519"],
     "path": ["44'/595'"]
   },
-  "POLYX_XL": {
-    "appFlags": {"nanos": "0x000"},
-    "appName": "Polymesh XL",
-    "curve": ["ed25519"],
-    "path": ["44'/595'"]
-  },
   "REEF": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Reef",
