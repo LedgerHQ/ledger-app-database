@@ -1935,7 +1935,7 @@
     "path": [null]
   },
   "xrp": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0xa00", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "XRP",
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/144'"]
