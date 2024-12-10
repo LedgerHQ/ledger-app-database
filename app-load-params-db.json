@@ -130,6 +130,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/931'"]
   },
+  "CCD": {
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Concordium",
+    "curve": ["ed25519"],
+    "path": ["44'/919'", "1105'/0'"]
+  },
   "CFG": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Centrifuge",
@@ -859,12 +865,6 @@
     "appName": "Compound",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
-  },
-  "concordium": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
-    "appName": "Concordium",
-    "curve": ["ed25519"],
-    "path": ["1105'/0'"]
   },
   "conflux": {
     "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
