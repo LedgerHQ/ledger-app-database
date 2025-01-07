@@ -1,3 +1,6 @@
 # IDE configuration files
 *.xml
 *.iml
+
+# Python
+__pycache__/
