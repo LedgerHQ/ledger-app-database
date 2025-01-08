@@ -1452,7 +1452,7 @@
   "ontology": {
     "appFlags": {"flex": "0x240", "nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "ONT",
-    "path": ["44'/1024'"]
+    "path": ["44'/1024'", "44'/888'"]
   },
   "opensea": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0x800"},
