@@ -65,6 +65,12 @@
     "curve": ["ed25519"],
     "path": ["44'/709'"]
   },
+  "AVAIL_RECOVERY": {
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Avail Recovery",
+    "curve": ["ed25519"],
+    "path": ["44'/354'"]
+  },
   "AVAIL_XL": {
     "appFlags": {"nanos": "0x000"},
     "appName": "Avail XL",
