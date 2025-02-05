@@ -1762,7 +1762,7 @@
     "path": [null]
   },
   "sui": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x000", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Sui",
     "curve": ["ed25519"],
     "path": ["44'/784'"]
