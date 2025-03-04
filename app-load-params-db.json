@@ -80,7 +80,7 @@
   "AVAX": {
     "appFlags": {"flex": "0x400", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x400", "stax": "0x400"},
     "appName": "Avalanche",
-    "curve": ["secp256k1"],
+    "curve": ["secp256k1", "ed25519"],
     "path": ["44'/9000'", "44'/60'"]
   },
   "AXL": {
