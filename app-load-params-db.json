@@ -235,6 +235,12 @@
     "curve": ["ed25519"],
     "path": ["44'/2135'", "44'/354'"]
   },
+  "EVER": {
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Everscale",
+    "curve": ["ed25519"],
+    "path": ["44'/396'"]
+  },
   "Equilibrium": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Equilibrium",
@@ -1023,12 +1029,6 @@
     "appName": "Ethersocial",
     "curve": ["secp256k1"],
     "path": ["45'", "44'/31102'", "44'/1'"]
-  },
-  "everscale": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
-    "appName": "Everscale",
-    "curve": ["ed25519"],
-    "path": ["44'/396'"]
   },
   "exchange": {
     "appFlags": {"flex": "0x250", "nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
