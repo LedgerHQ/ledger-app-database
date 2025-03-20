@@ -513,7 +513,7 @@
     "path": ["44'/529'", "44'/60'"]
   },
   "SEI": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x400", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x400", "stax": "0x400"},
     "appName": "Sei",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
