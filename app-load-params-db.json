@@ -824,6 +824,18 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
+  "btcext": {
+    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appName": "Btcext Boilerplate",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
+  "btcext_testnet": {
+    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appName": "Btcext Boilerplate Testnet",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "btec": {
     "appFlags": {"nanos2": "0x000", "nanox": "0x000", "stax": "0x000"},
     "appName": "BTEC",
