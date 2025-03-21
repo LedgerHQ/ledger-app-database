@@ -512,6 +512,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/529'", "44'/60'"]
   },
+  "SDK": {
+    "appFlags": {"flex": "0x400", "nanos2": "0x000", "nanox": "0x400", "stax": "0x400"},
+    "appName": "Sovereign",
+    "curve": ["ed25519"],
+    "path": ["44'/1551'"]
+  },
   "SEI": {
     "appFlags": {"flex": "0x400", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x400", "stax": "0x400"},
     "appName": "Sei",
