@@ -824,13 +824,13 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
-  "btcext": {
+  "btcext_boilerplate": {
     "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
     "appName": "Btcext Boilerplate",
     "curve": ["secp256k1"],
     "path": [null]
   },
-  "btcext_testnet": {
+  "btcext_boilerplate_testnet": {
     "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
     "appName": "Btcext Boilerplate Testnet",
     "curve": ["secp256k1"],
