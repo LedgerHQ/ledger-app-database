@@ -661,10 +661,10 @@
     "path": ["44'/425'"]
   },
   "akroma": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Akroma",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/200625'", "44'/1'"]
+    "path": ["44'/200625'", "45'", "44'/1'"]
   },
   "alephium": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
@@ -727,10 +727,10 @@
     "path": ["44'/60'"]
   },
   "artis_sigma1": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "ARTIS sigma1",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/246529'", "44'/1'"]
+    "path": ["44'/246529'", "45'", "44'/1'"]
   },
   "artis_tau1": {
     "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
@@ -739,16 +739,16 @@
     "path": ["45'", "44'/246785'", "44'/1'"]
   },
   "astar": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Astar Polkadot EVM",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/810'", "44'/1'"]
+    "path": ["44'/810'", "45'", "44'/1'"]
   },
   "atheios": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Atheios",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/1620'", "44'/1'"]
+    "path": ["44'/1620'", "45'", "44'/1'"]
   },
   "babylon-ledger-app": {
     "appFlags": {"nanos": "0x040", "nanos2": "0x040", "nanox": "0x240"},
@@ -849,10 +849,10 @@
     "path": ["44'/60'", "12381/3600"]
   },
   "callisto": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Callisto",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/820'", "44'/1'"]
+    "path": ["44'/820'", "45'", "44'/1'"]
   },
   "cardano_ada": {
     "appFlags": {"flex": "0xa00", "nanos": "0x200", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
@@ -948,10 +948,10 @@
     "path": ["44'/1'"]
   },
   "dexon": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "DEXON",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/237'", "44'/1'"]
+    "path": ["44'/237'", "45'", "44'/1'"]
   },
   "dhp": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
@@ -989,16 +989,16 @@
     "path": ["44'/2305'"]
   },
   "ellaism": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Ellaism",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/163'", "44'/1'"]
+    "path": ["44'/163'", "45'", "44'/1'"]
   },
   "energywebchain": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "EnergyWebChain",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/246'", "44'/1'"]
+    "path": ["44'/246'", "45'", "44'/1'"]
   },
   "ens": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
@@ -1019,34 +1019,34 @@
     "path": ["44'/429'"]
   },
   "ether1": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Ether-1",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/1313114'", "44'/1'"]
+    "path": ["44'/1313114'", "45'", "44'/1'"]
   },
   "ethereum": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Ethereum",
-    "curve": ["secp256k1", "bls12381g1"],
-    "path": ["45'", "44'/60'", "12381/3600", "44'/1'"]
+    "curve": ["bls12381g1", "secp256k1"],
+    "path": ["44'/60'", "12381/3600", "45'", "44'/1'"]
   },
   "ethereum_classic": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Ethereum Classic",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/61'", "44'/60'", "44'/1'"]
+    "path": ["44'/61'", "44'/60'", "45'", "44'/1'"]
   },
   "ethergem": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "EtherGem",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/1987'", "44'/1'"]
+    "path": ["44'/1987'", "45'", "44'/1'"]
   },
   "ethersocial": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Ethersocial",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/31102'", "44'/1'"]
+    "path": ["44'/31102'", "45'", "44'/1'"]
   },
   "exchange": {
     "appFlags": {"flex": "0x250", "nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
@@ -1055,10 +1055,10 @@
     "path": [null]
   },
   "expanse": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Expanse",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/40'", "44'/1'"]
+    "path": ["44'/40'", "45'", "44'/1'"]
   },
   "factom": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
@@ -1103,10 +1103,10 @@
     "path": [null]
   },
   "gochain": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "GoChain",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/6060'", "44'/1'"]
+    "path": ["44'/6060'", "45'", "44'/1'"]
   },
   "grin": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
@@ -1133,7 +1133,7 @@
     "path": [null]
   },
   "harmony": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Harmony",
     "curve": ["secp256k1"],
     "path": ["44'/1023'", "45'", "44'/1'"]
@@ -1181,10 +1181,10 @@
     "path": [null]
   },
   "hpb": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "HPB",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/269'", "44'/1'"]
+    "path": ["44'/269'", "45'", "44'/1'"]
   },
   "hycon": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
@@ -1223,10 +1223,10 @@
     "path": ["44'/1'"]
   },
   "id4good": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "ID4Good",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/161803'", "44'/1'"]
+    "path": ["44'/161803'", "45'", "44'/1'"]
   },
   "iota": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
@@ -1246,7 +1246,7 @@
     "path": ["44'/1'", "44'/4218'"]
   },
   "iotex": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "IoTeX",
     "curve": ["secp256k1"],
     "path": ["44'/304'", "45'", "44'/1'"]
@@ -1354,10 +1354,10 @@
     "path": ["44'/12586'"]
   },
   "mix": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Mix",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/76'", "44'/1'"]
+    "path": ["44'/76'", "45'", "44'/1'"]
   },
   "monero": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
@@ -1366,16 +1366,16 @@
     "path": ["44'/128'"]
   },
   "moonbeam": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Moonbeam",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/1284'", "44'/1'"]
+    "path": ["44'/1284'", "45'", "44'/1'"]
   },
   "moonriver": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Moonriver",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/1285'", "44'/1'"]
+    "path": ["44'/1285'", "45'", "44'/1'"]
   },
   "morpho": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
@@ -1384,10 +1384,10 @@
     "path": ["44'/60'"]
   },
   "musicoin": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Musicoin",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/184'", "44'/1'"]
+    "path": ["44'/184'", "45'", "44'/1'"]
   },
   "nano": {
     "appFlags": {"nanos": "0x850", "nanos2": "0x850", "nanox": "0xA50"},
@@ -1462,10 +1462,10 @@
     "path": ["43'/474'"]
   },
   "oasys": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Oasys",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/685'", "44'/1'"]
+    "path": ["44'/685'", "45'", "44'/1'"]
   },
   "okx_web3": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
@@ -1533,10 +1533,10 @@
     "path": ["44'/60'/0'/0/0"]
   },
   "pirl": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Pirl",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/164'", "44'/1'"]
+    "path": ["44'/164'", "45'", "44'/1'"]
   },
   "pivx": {
     "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
@@ -1630,10 +1630,10 @@
     "path": ["44'/501'"]
   },
   "reosc": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "REOSC",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/2894'", "44'/1'"]
+    "path": ["44'/2894'", "45'", "44'/1'"]
   },
   "resistance": {
     "appFlags": {"nanos": "0xa50"},
@@ -1666,16 +1666,16 @@
     "path": ["44'/60'"]
   },
   "rsk": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "RSK",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/137'", "44'/00'", "44'/1'"]
+    "path": ["44'/137'", "44'/00'", "45'", "44'/1'"]
   },
   "rsk_testnet": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "RSK Test",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/37310'", "44'/1'"]
+    "path": ["44'/37310'", "45'", "44'/1'"]
   },
   "safecoin": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
@@ -1690,10 +1690,10 @@
     "path": [null]
   },
   "shiden": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Shiden EVM",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/809'", "44'/1'"]
+    "path": ["44'/809'", "45'", "44'/1'"]
   },
   "shimmer": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
@@ -1714,10 +1714,10 @@
     "path": ["44'/501'"]
   },
   "songbird": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Songbird",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/554'", "44'/1'"]
+    "path": ["44'/554'", "45'", "44'/1'"]
   },
   "spool": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
@@ -1806,10 +1806,10 @@
     "path_slip21": "LEDGER-Wallet policy"
   },
   "tecracoin": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "TecraCoin",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/554'", "44'/1'"]
+    "path": ["44'/554'", "45'", "44'/1'"]
   },
   "tecratestnet": {
     "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
@@ -1852,16 +1852,16 @@
     "path": ["44'/60'"]
   },
   "thundercore": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "ThunderCore",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/1001'", "44'/1'"]
+    "path": ["44'/1001'", "45'", "44'/1'"]
   },
   "tomochain": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "TomoChain",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/889'", "44'/1'"]
+    "path": ["44'/889'", "45'", "44'/1'"]
   },
   "tron": {
     "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
@@ -1870,10 +1870,10 @@
     "path": ["44'/195'"]
   },
   "ubiq": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Ubiq",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/108'", "44'/1'"]
+    "path": ["44'/108'", "45'", "44'/1'"]
   },
   "uniswap": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
@@ -1924,10 +1924,10 @@
     "path": ["45'", "44'/73799'", "44'/1'"]
   },
   "wanchain": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Wanchain",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/5718350'", "44'/1'"]
+    "path": ["44'/5718350'", "45'", "44'/1'"]
   },
   "waves": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
@@ -1936,16 +1936,16 @@
     "path": ["44'/5741564'"]
   },
   "webchain": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Webchain",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/227'", "44'/1'"]
+    "path": ["44'/227'", "45'", "44'/1'"]
   },
   "wethio": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Wethio",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/77777'", "44'/1'"]
+    "path": ["44'/77777'", "45'", "44'/1'"]
   },
   "xah": {
     "appFlags": {"flex": "0xa00", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
@@ -1954,10 +1954,10 @@
     "path": ["44'/144'"]
   },
   "xdcnetwork": {
-    "appFlags": {"flex": "0xa40", "nanos": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "XDC Network",
     "curve": ["secp256k1"],
-    "path": ["45'", "44'/550'", "44'/1'"]
+    "path": ["44'/550'", "45'", "44'/1'"]
   },
   "xrhodium": {
     "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
