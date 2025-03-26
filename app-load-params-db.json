@@ -78,7 +78,7 @@
     "path": ["44'/709'"]
   },
   "AVAX": {
-    "appFlags": {"flex": "0x400", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x400", "stax": "0x400"},
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Avalanche",
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/9000'", "44'/60'"]
@@ -513,13 +513,13 @@
     "path": ["44'/529'", "44'/60'"]
   },
   "SDK": {
-    "appFlags": {"flex": "0x400", "nanos2": "0x000", "nanox": "0x400", "stax": "0x400"},
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Sovereign",
     "curve": ["ed25519"],
     "path": ["44'/1551'"]
   },
   "SEI": {
-    "appFlags": {"flex": "0x400", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x400", "stax": "0x400"},
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Sei",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
@@ -1258,7 +1258,7 @@
     "path": ["44'/1338'"]
   },
   "kadena": {
-    "appFlags": {"flex": "0x400", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x400", "stax": "0x400"},
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Kadena",
     "curve": ["ed25519"],
     "path": ["44'/626'"]
