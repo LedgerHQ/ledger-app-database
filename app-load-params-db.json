@@ -824,12 +824,6 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
-  "blocx": {
-    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
-    "appName": "BLOCX.",
-    "curve": ["secp256k1"],
-    "path": ["44'/5'/950'"]
-  },
   "brick_towers": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Brick Towers",
@@ -1790,20 +1784,6 @@
     "appName": "Swell",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
-  },
-  "syscoin": {
-    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
-    "appName": "Syscoin",
-    "curve": ["secp256k1"],
-    "path": ["44'/57'", "45'/57'", "84'/57'", "86'/57'"],
-    "path_slip21": "LEDGER-Wallet policy"
-  },
-  "syscoin_test": {
-    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
-    "appName": "Syscoin Test",
-    "curve": ["secp256k1"],
-    "path": ["0'/1'", "44'/1'", "45'/1'", "84'/1'", "86'/1'", "48'/1'", "49'/1'"],
-    "path_slip21": "LEDGER-Wallet policy"
   },
   "tecracoin": {
     "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
