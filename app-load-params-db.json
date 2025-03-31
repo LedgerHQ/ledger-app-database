@@ -762,6 +762,12 @@
     "curve": ["ed25519"],
     "path": ["44'/198'"]
   },
+  "berachain": {
+    "appFlags": {"flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "Berachain",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "binance_chain": {
     "appFlags": {"flex": "0x200", "nanos": "0x200", "nanos2": "0x200", "nanox": "0x200", "stax": "0x200"},
     "appName": "Binance Chain",
