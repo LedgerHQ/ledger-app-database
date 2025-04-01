@@ -757,7 +757,7 @@
     "path": ["44'/1022'"]
   },
   "banano": {
-    "appFlags": {"nanos": "0x50", "nanos2": "0x50", "nanox": "0x250"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Banano",
     "curve": ["ed25519"],
     "path": ["44'/198'"]
@@ -1390,7 +1390,7 @@
     "path": ["44'/184'", "45'", "44'/1'"]
   },
   "nano": {
-    "appFlags": {"nanos": "0x850", "nanos2": "0x850", "nanox": "0xA50"},
+    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xA00"},
     "appName": "Nano",
     "curve": ["ed25519"],
     "path": ["44'/165'", "44'/198'", "44'/229'"]
@@ -1444,7 +1444,7 @@
     "path": [null]
   },
   "nos": {
-    "appFlags": {"nanos": "0x50", "nanos2": "0x50", "nanox": "0x250"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "NOS",
     "curve": ["ed25519"],
     "path": ["44'/229'"]
