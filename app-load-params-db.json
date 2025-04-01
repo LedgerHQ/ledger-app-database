@@ -930,13 +930,13 @@
     "path": [null]
   },
   "decred": {
-    "appFlags": {"nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appFlags": {"nanos": "0xa00", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Decred",
     "curve": ["secp256k1"],
     "path": ["44'/42'"]
   },
   "decred_testnet": {
-    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200", "stax": "0x200"},
     "appName": "Decred Test",
     "curve": ["secp256k1"],
     "path": ["44'/42'"]
