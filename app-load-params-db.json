@@ -1617,6 +1617,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "recovery_key_updater": {
+    "appFlags": {"flex": "0x40000", "stax": "0x40000"},
+    "appName": "Recovery Key Updater",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "renec": {
     "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "RENEC",
