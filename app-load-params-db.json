@@ -1211,13 +1211,13 @@
     "path": ["44'/438'"]
   },
   "icon": {
-    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250"},
+    "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200"},
     "appName": "ICON",
     "curve": ["secp256k1"],
     "path": ["44'/4801368'"]
   },
   "icon_testnet": {
-    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250"},
+    "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200"},
     "appName": "ICON testnet",
     "curve": ["secp256k1"],
     "path": ["44'/1'"]
@@ -1515,7 +1515,7 @@
     "path": ["44'/60'"]
   },
   "particl": {
-    "appFlags": {"nanos": "0x250", "nanos2": "0x250", "nanox": "0x250"},
+    "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200"},
     "appName": "Particl",
     "curve": ["secp256k1"],
     "path": ["44'/44'"]
