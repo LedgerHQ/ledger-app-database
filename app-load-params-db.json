@@ -100,6 +100,12 @@
     "curve": ["ed25519"],
     "path": ["44'/643'"]
   },
+  "BBNST": {
+    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appName": "Babylon BTC Staking",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "BITS": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Entropy",
