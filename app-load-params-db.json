@@ -1241,7 +1241,7 @@
     "path": ["44'/161803'", "45'", "44'/1'"]
   },
   "iota": {
-    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
+    "appFlags": {"nanos2": "0x000", "nanox": "0x200"},
     "appName": "IOTA",
     "curve": ["ed25519"],
     "path": ["44'/1'", "44'/4218'"]
@@ -1250,12 +1250,6 @@
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
     "appName": "IOTA Legacy",
     "path": ["44'/4218'"]
-  },
-  "iota_rebased": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
-    "appName": "IOTA Rebased",
-    "curve": ["ed25519"],
-    "path": ["44'/1'", "44'/4218'"]
   },
   "iotex": {
     "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
