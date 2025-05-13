@@ -502,6 +502,12 @@
     "curve": ["ed25519"],
     "path": ["44'/595'"]
   },
+  "QUBIC": {
+    "appFlags": {"flex": "0x200", "nanos2": "0x0", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Qubic",
+    "curve": ["secp256k1"],
+    "path": ["44'/83293'"]
+  },
   "REEF": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Reef",
