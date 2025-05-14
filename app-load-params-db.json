@@ -505,11 +505,13 @@
   "REEF": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Reef",
+    "curve": ["ed25519"],
     "path": ["44'/819'"]
   },
   "REEF_XL": {
     "appFlags": {"nanos": "0x200"},
     "appName": "Reef XL",
+    "curve": ["ed25519"],
     "path": ["44'/819'"]
   },
   "RUNE": {
