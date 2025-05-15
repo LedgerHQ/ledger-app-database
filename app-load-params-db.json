@@ -1020,9 +1020,9 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
-  "eos": {
+  "vaulta": {
     "appFlags": {"flex": "0x240", "nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
-    "appName": "Eos",
+    "appName": "Vaulta",
     "curve": ["secp256k1"],
     "path": ["44'/194'"]
   },
