@@ -509,7 +509,7 @@
     "path": ["44'/83293'"]
   },
   "REEF": {
-    "appFlags": {"nanos": "0x200", "nanox": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Reef",
     "curve": ["ed25519"],
     "path": ["44'/819'"]
