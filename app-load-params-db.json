@@ -1540,6 +1540,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "pepecoin": {
+    "appFlags": {"flex": "0xa10", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appName": "Pepecoin",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "phantasma": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x000"},
     "appName": "Phantasma",
