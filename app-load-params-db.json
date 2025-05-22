@@ -1875,6 +1875,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
+  "vaulta": {
+    "appFlags": {"flex": "0x240", "nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appName": "Vaulta",
+    "curve": ["secp256k1"],
+    "path": ["44'/194'"]
+  },
   "vechain": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "VeChain",
