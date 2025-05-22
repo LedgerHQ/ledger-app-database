@@ -101,13 +101,13 @@
     "path": ["44'/643'"]
   },
   "BBNST": {
-    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Babylon BTC Staking",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "BBNST_test": {
-    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Babylon BTC Test",
     "curve": ["secp256k1"],
     "path": [null]
