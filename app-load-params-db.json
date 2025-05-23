@@ -318,7 +318,7 @@
     "path": ["44'/686'", "44'/434'"]
   },
   "KAS": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Kaspa",
     "curve": ["secp256k1"],
     "path": ["44'/111111'"]
