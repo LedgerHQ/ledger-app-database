@@ -1522,12 +1522,6 @@
     "appName": "Panacea",
     "path": ["44'/371'"]
   },
-  "paraswap": {
-    "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
-    "appName": "Paraswap",
-    "curve": ["secp256k1"],
-    "path": ["44'/60'"]
-  },
   "particl": {
     "appFlags": {"nanos": "0x200", "nanos2": "0x200", "nanox": "0x200"},
     "appName": "Particl",
@@ -1898,6 +1892,12 @@
     "appName": "Velas",
     "curve": ["ed25519"],
     "path": ["44'/5655640'"]
+  },
+  "velora": {
+    "appFlags": {"flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "Velora",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
   },
   "venom": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
