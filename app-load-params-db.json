@@ -1733,6 +1733,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/554'", "45'", "44'/1'"]
   },
+  "sonic": {
+    "appFlags": {"flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
+    "appName": "Sonic",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'", "45'", "44'/1'"]
+  },
   "spool": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Spool",
