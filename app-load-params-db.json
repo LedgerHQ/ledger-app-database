@@ -1769,9 +1769,9 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
-  "stakekit": {
+  "yield_xyz": {
     "appFlags": {"flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
-    "appName": "StakeKit",
+    "appName": "Yield.xyz",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
