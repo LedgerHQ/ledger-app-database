@@ -927,6 +927,18 @@
     "appName": "Constellation",
     "path": ["44'/1137'"]
   },
+  "core_dao": {
+    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appName": "CoreDAO",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
+  "core_dao_testnet": {
+    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appName": "CoreDAO Testnet",
+    "curve": ["secp256k1"],
+    "path": [null]
+  },
   "cosmos": {
     "appFlags": {"nanos": "0x200", "nanox": "0x200"},
     "appName": "Insolar",
