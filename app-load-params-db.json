@@ -783,7 +783,7 @@
     "path": ["44'/198'"]
   },
   "bbachain": {
-    "appFlags": {"flex": "0x250", "nanos2": "0x800", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
     "appName": "BBAChain",
     "curve": ["ed25519"],
     "path": ["44'/829'"]
