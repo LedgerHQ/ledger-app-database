@@ -782,6 +782,12 @@
     "curve": ["ed25519"],
     "path": ["44'/198'"]
   },
+  "bbachain": {
+    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "BBAChain",
+    "curve": ["ed25519"],
+    "path": ["44'/829'"]
+  },
   "berachain": {
     "appFlags": {"flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Berachain",
