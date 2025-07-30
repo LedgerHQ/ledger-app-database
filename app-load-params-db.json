@@ -604,6 +604,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/6532'"]
   },
+  "VENOM": {
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appName": "Venom",
+    "curve": ["ed25519"],
+    "path": ["44'/396'"]
+  },
   "WEST": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Waves Enterprise",
@@ -1916,12 +1922,6 @@
     "appName": "Velora",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
-  },
-  "venom": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
-    "appName": "Venom",
-    "curve": ["ed25519"],
-    "path": ["44'/396'"]
   },
   "vertcoin": {
     "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
