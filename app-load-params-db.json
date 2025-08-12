@@ -1373,6 +1373,12 @@
     "curve": ["secp256k1"],
     "path": [null]
   },
+  "mavryk_wallet": {
+    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
+    "appName": "Mavryk Wallet",
+    "curve": ["ed25519", "secp256k1", "secp256r1"],
+    "path": ["44'/1969'"]
+  },
   "midas": {
     "appFlags": {"apex_p": "0x800", "flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Midas",
