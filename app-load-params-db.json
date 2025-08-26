@@ -1434,7 +1434,7 @@
     "path": ["44'/165'", "44'/198'", "44'/229'"]
   },
   "nbgl_test": {
-    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "NBGL Tests",
     "curve": ["secp256k1"],
     "path": ["44'/1'"]
