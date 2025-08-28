@@ -148,6 +148,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/931'"]
   },
+  "CC": {
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Canton",
+    "curve": ["ed25519"],
+    "path": ["44'/6767'"]
+  },
   "CCD": {
     "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Concordium",
