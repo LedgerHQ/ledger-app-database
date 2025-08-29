@@ -893,7 +893,7 @@
     "path": ["44'/820'", "45'", "44'/1'"]
   },
   "cardano_ada": {
-    "appFlags": {"flex": "0xa00", "nanos": "0x200", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
+    "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos": "0x200", "nanos2": "0xa00", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Cardano ADA",
     "curve": ["ed25519"],
     "path": ["44'/1815'", "1852'/1815'", "1853'/1815'", "1854'/1815'", "1855'/1815'", "1694'/1815'"]
