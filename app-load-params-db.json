@@ -1764,7 +1764,7 @@
     "path": ["44'/554'", "45'", "44'/1'"]
   },
   "sonic": {
-    "appFlags": {"flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
+    "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Sonic",
     "curve": ["secp256k1"],
     "path": ["44'/60'", "45'", "44'/1'"]
