@@ -813,51 +813,51 @@
     "path": ["44'/714'"]
   },
   "bitcoin": {
-    "appFlags": {"flex": "0xa50", "nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appFlags": {"apex_p": "0xa50", "flex": "0xa50", "nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Bitcoin",
     "curve": ["secp256k1"],
     "path": [null],
     "path_slip21": "LEDGER-Wallet policy"
   },
   "bitcoin_cash": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin Cash",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "bitcoin_clone_boilerplate": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin clone boilerplate",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "bitcoin_gold": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin Gold",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "bitcoin_legacy": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin Legacy",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "bitcoin_private": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin Private",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "bitcoin_testnet": {
-    "appFlags": {"flex": "0xa50", "nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
+    "appFlags": {"apex_p": "0xa50", "flex": "0xa50", "nanos": "0xa50", "nanos2": "0xa50", "nanox": "0xa50", "stax": "0xa50"},
     "appName": "Bitcoin Test",
     "curve": ["secp256k1"],
     "path": [null],
     "path_slip21": "LEDGER-Wallet policy"
   },
   "bitcoin_testnet_legacy": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin Test Legacy",
     "curve": ["secp256k1"],
     "path": [null]
@@ -869,13 +869,13 @@
     "path": ["44'/60'"]
   },
   "btcext_boilerplate": {
-    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"apex_p": "0x250", "flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
     "appName": "Btcext Boilerplate",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "btcext_boilerplate_testnet": {
-    "appFlags": {"flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"apex_p": "0x250", "flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
     "appName": "Btcext Boilerplate Testnet",
     "curve": ["secp256k1"],
     "path": [null]
@@ -974,7 +974,7 @@
     "path": ["44'/394'"]
   },
   "dash": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Dash",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1010,13 +1010,13 @@
     "path": ["44'/10111'", "44'/1'"]
   },
   "digibyte": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Digibyte",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "dogecoin": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Dogecoin",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1135,7 +1135,7 @@
     "path": ["44'/60'"]
   },
   "firo": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Firo",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1147,7 +1147,7 @@
     "path": ["44'/60'"]
   },
   "gamecredits": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "GameCredits",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1225,7 +1225,7 @@
     "path": ["44'/905'"]
   },
   "horizen": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Horizen",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1243,13 +1243,13 @@
     "path": ["44'/1397'"]
   },
   "hydra": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Hydra",
     "curve": ["secp256k1"],
     "path": ["44'/609'"]
   },
   "hydra_testnet": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Hydra Test",
     "curve": ["secp256k1"],
     "path": ["44'/609'"]
@@ -1326,13 +1326,13 @@
     "path": ["44'/2017'"]
   },
   "komodo": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Komodo",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "lbry": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "LBRY",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1368,7 +1368,7 @@
     "path": ["44'/134'"]
   },
   "litecoin": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Litecoin",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1404,7 +1404,7 @@
     "path": ["44'/76'", "45'", "44'/1'"]
   },
   "monero": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Monero",
     "curve": ["secp256k1"],
     "path": ["44'/128'"]
@@ -1482,7 +1482,7 @@
     "path": ["44'/242'"]
   },
   "nix": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "NIX",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1559,7 +1559,7 @@
     "path": ["44'/44'"]
   },
   "peercoin": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Peercoin",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1583,7 +1583,7 @@
     "path": ["44'/164'", "45'", "44'/1'"]
   },
   "pivx": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "PivX",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1650,7 +1650,7 @@
     "path": ["44'/60'"]
   },
   "ravencoin": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Ravencoin",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1818,7 +1818,7 @@
     "path": ["44'/148'"]
   },
   "stratis": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Stratis",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1930,13 +1930,13 @@
     "path": ["44'/60'"]
   },
   "vertcoin": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Vertcoin",
     "curve": ["secp256k1"],
     "path": [null]
   },
   "viacoin": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Viacoin",
     "curve": ["secp256k1"],
     "path": [null]
@@ -1984,7 +1984,7 @@
     "path": ["44'/550'", "45'", "44'/1'"]
   },
   "xrhodium": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "xRhodium",
     "curve": ["secp256k1"],
     "path": [null]
@@ -2014,7 +2014,7 @@
     "path": ["44'/133'"]
   },
   "zclassic": {
-    "appFlags": {"flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos": "0x810", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "ZClassic",
     "curve": ["secp256k1"],
     "path": [null]
