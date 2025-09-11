@@ -1613,7 +1613,7 @@
     "path": ["44'/635'"]
   },
   "pwmgr": {
-    "appFlags": {"nanos": "0x40", "nanos2": "0x40", "nanox": "0x40", "stax": "0x40"},
+    "appFlags": {"apex_p": "0x40", "flex": "0x40", "nanos2": "0x40", "nanox": "0x40", "stax": "0x40"},
     "appName": "Passwords",
     "curve": ["secp256k1"],
     "path": ["5265220'"]
