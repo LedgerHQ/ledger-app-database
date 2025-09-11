@@ -1099,7 +1099,7 @@
     "path": ["44'/31102'", "45'", "44'/1'"]
   },
   "exchange": {
-    "appFlags": {"flex": "0x250", "nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"apex_p": "0x250", "flex": "0x250", "nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
     "appName": "Exchange",
     "curve": ["ed25519", "secp256k1", "secp256r1"],
     "path": [null]
@@ -1746,7 +1746,7 @@
     "path": ["44'/93'"]
   },
   "solana": {
-    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
+    "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Solana",
     "curve": ["ed25519"],
     "path": ["44'/501'"]
