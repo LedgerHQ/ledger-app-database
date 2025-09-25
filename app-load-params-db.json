@@ -1022,7 +1022,7 @@
     "path": [null]
   },
   "eGLD": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "MultiversX",
     "curve": ["ed25519"],
     "path": ["44'/508'"]
