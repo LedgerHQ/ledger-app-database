@@ -587,7 +587,7 @@
     "path": ["44'/5757'", "5757'", "888'/0'", "44'/1'"]
   },
   "SXP": {
-    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Solar",
     "curve": ["secp256k1"],
     "path": ["44'/3333'", "44'/1'"]
