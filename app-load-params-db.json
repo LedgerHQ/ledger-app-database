@@ -1392,7 +1392,7 @@
     "path": ["44'/1'"]
   },
   "mina": {
-    "appFlags": {"flex": "0x200", "nanos": "0x200", "nanos2": "0x200", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x200", "nanox": "0x200", "stax": "0x200"},
     "appName": "Mina",
     "curve": ["secp256k1"],
     "path": ["44'/12586'"]
