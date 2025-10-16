@@ -54,7 +54,7 @@
     "path": ["44'/810'", "44'/354'"]
   },
   "ATOM": {
-    "appFlags": {"flex": "0xa00", "nanos": "0x000", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
+    "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Cosmos",
     "curve": ["secp256k1"],
     "path": ["44'/118'", "44'/60'"]
@@ -1302,7 +1302,7 @@
     "path": ["44'/1338'"]
   },
   "kadena": {
-    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Kadena",
     "curve": ["ed25519"],
     "path": ["44'/626'"]
