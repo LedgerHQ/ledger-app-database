@@ -1057,7 +1057,7 @@
     "path": ["44'/60'"]
   },
   "eos": {
-    "appFlags": {"flex": "0x240", "nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appFlags": {"apex_p": "0x240", "flex": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "Eos",
     "curve": ["secp256k1"],
     "path": ["44'/194'"]
