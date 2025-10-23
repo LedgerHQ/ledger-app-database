@@ -1434,10 +1434,10 @@
     "path": ["44'/184'"]
   },
   "nano": {
-    "appFlags": {"nanos": "0x800", "nanos2": "0x800", "nanox": "0xA00"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Nano",
     "curve": ["ed25519"],
-    "path": ["44'/165'", "44'/198'", "44'/229'"]
+    "path": ["44'/165'"]
   },
   "nbgl_test": {
     "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
