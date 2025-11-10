@@ -1512,7 +1512,7 @@
     "path": ["44'/60'"]
   },
   "ontology": {
-    "appFlags": {"flex": "0x240", "nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appFlags": {"apex_p": "0x240", "flex": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "ONT",
     "curve": ["secp256r1"],
     "path": ["44'/1024'", "44'/888'"]
