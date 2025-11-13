@@ -24,7 +24,7 @@
     "path": ["44'/441'"]
   },
   "ALGO": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Algorand",
     "curve": ["ed25519"],
     "path": ["44'/283'"]
@@ -78,7 +78,7 @@
     "path": ["44'/709'"]
   },
   "AVAX": {
-    "appFlags": {"flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Avalanche",
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/9000'", "44'/60'"]
@@ -208,22 +208,16 @@
     "path": ["44'/594'"]
   },
   "DOT": {
-    "appFlags": {"flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
+    "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Polkadot",
     "curve": ["ed25519", "secp256k1"],
     "path": ["44'/354'"]
   },
   "DOT_MIGRATION": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Polkadot Migration",
     "curve": ["ed25519"],
     "path": ["44'/354'", "44'/434'", "44'/295'", "44'/523'", "44'/537'", "44'/594'", "44'/595'", "44'/617'", "44'/631'", "44'/643'", "44'/686'", "44'/718'", "44'/747'", "44'/787'", "44'/788'", "44'/799'", "44'/810'", "44'/819'", "44'/907'", "44'/995'", "44'/1003'", "44'/1005'", "44'/1155'", "44'/1955'"]
-  },
-  "DOT_XL": {
-    "appFlags": {"nanos": "0x800"},
-    "appName": "Polkadot XL",
-    "curve": ["ed25519"],
-    "path": ["44'/354'", "44'/434'"]
   },
   "DSM": {
     "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
@@ -1488,7 +1482,7 @@
     "path": [null]
   },
   "oasis": {
-    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Oasis",
     "curve": ["ed25519", "secp256k1"],
     "path": ["44'/474'", "44'/60'", "44'/354'"]
@@ -1512,7 +1506,7 @@
     "path": ["44'/60'"]
   },
   "ontology": {
-    "appFlags": {"flex": "0x240", "nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appFlags": {"apex_p": "0x240", "flex": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "ONT",
     "curve": ["secp256r1"],
     "path": ["44'/1024'", "44'/888'"]
