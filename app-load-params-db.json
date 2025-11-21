@@ -1446,7 +1446,7 @@
     "path": ["44'/397'"]
   },
   "nem": {
-    "appFlags": {"apex_p": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
+    "appFlags": {"apex_p": "0x240", "flex": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "NEM",
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/43'", "44'/1'"]
@@ -1984,7 +1984,7 @@
     "path": ["44'/144'"]
   },
   "xym": {
-    "appFlags": {"apex_p": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Symbol",
     "curve": ["secp256k1", "ed25519"],
     "path": ["44'/4343'", "44'/1'"]
