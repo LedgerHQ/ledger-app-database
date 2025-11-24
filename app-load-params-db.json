@@ -1349,6 +1349,20 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
+  "liquid": {
+    "appFlags": {"flex": "0x250", "nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appName": "Liquid",
+    "curve": ["secp256k1"],
+    "path": [null],
+    "path_slip21": ["LEDGER-Wallet policy", "SLIP-0077"]
+  },
+  "liquid_regtest": {
+    "appFlags": {"flex": "0x250", "nanos": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appName": "Liquid Regtest",
+    "curve": ["secp256k1"],
+    "path": [null],
+    "path_slip21": ["LEDGER-Wallet policy", "SLIP-0077"]
+  },
   "lisk": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Lisk",
