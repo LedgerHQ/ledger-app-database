@@ -1656,7 +1656,7 @@
     "path": [null]
   },
   "recovery_key_updater": {
-    "appFlags": {"flex": "0x40000", "stax": "0x40000"},
+    "appFlags": {"apex_p": "0x40000", "flex": "0x40000", "stax": "0x40000"},
     "appName": "Recovery Key Updater",
     "curve": ["secp256k1"],
     "path": [null]
