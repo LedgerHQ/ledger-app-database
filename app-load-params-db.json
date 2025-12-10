@@ -1787,12 +1787,6 @@
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
-  "stakekit": {
-    "appFlags": {"apex_p": "0x800", "flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
-    "appName": "StakeKit",
-    "curve": ["secp256k1"],
-    "path": ["44'/60'"]
-  },
   "starknet": {
     "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Starknet",
@@ -1992,6 +1986,12 @@
   "yearn": {
     "appFlags": {"apex_p": "0x800", "flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "Yearn",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
+  "yield_xyz": {
+    "appFlags": {"apex_p": "0x800", "flex": "0x800", "nanos": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
+    "appName": "Yield.xyz",
     "curve": ["secp256k1"],
     "path": ["44'/60'"]
   },
