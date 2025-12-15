@@ -854,7 +854,7 @@
     "appFlags": {"apex_p": "0xa40", "flex": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
     "appName": "Bitcoin Test",
     "curve": ["secp256k1"],
-    "path": ["*/1'"],
+    "path": ["*/1'", "4541509'", "45'"],
     "path_slip21": "LEDGER-Wallet policy"
   },
   "bitcoin_testnet_legacy": {
