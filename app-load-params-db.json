@@ -909,7 +909,7 @@
     "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Celo",
     "curve": ["secp256k1"],
-    "path": ["44'/52752'", "44'/60'/0'/0/0", "44'/60'/0'", "44'/60'/0'/0"]
+    "path": ["44'/52752'", "44'/60'"]
   },
   "chorusone": {
     "appFlags": {"apex_p": "0x800", "flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
