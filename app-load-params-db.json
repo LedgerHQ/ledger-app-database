@@ -870,16 +870,16 @@
     "path": ["44'/60'"]
   },
   "btcext_boilerplate": {
-    "appFlags": {"apex_p": "0x250", "flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"apex_p": "0x240", "flex": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "Btcext Boilerplate",
     "curve": ["secp256k1"],
-    "path": [null]
+    "path": ["*/0'", "4541509'", "45'"]
   },
   "btcext_boilerplate_testnet": {
-    "appFlags": {"apex_p": "0x250", "flex": "0x250", "nanos2": "0x250", "nanox": "0x250", "stax": "0x250"},
+    "appFlags": {"apex_p": "0x240", "flex": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "Btcext Boilerplate Testnet",
     "curve": ["secp256k1"],
-    "path": [null]
+    "path": ["*/1'", "4541509'", "45'"]
   },
   "btec": {
     "appFlags": {"nanos2": "0x000", "nanox": "0x000", "stax": "0x000"},
