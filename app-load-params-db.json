@@ -538,12 +538,6 @@
     "curve": ["ed25519"],
     "path": ["44'/1551'"]
   },
-  "SEI": {
-    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
-    "appName": "Sei",
-    "curve": ["secp256k1"],
-    "path": ["44'/60'"]
-  },
   "SMESH": {
     "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Spacemesh",
@@ -1727,6 +1721,12 @@
     "appName": "Seed Tool",
     "curve": ["secp256k1"],
     "path": [null]
+  },
+  "sei": {
+    "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
+    "appName": "Sei",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
   },
   "shiden": {
     "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos": "0x800", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
