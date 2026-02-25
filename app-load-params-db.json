@@ -1249,6 +1249,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/609'"]
   },
+  "hyperliquid": {
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x0", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Hyperliquid",
+    "curve": ["secp256k1"],
+    "path": ["44'/60'"]
+  },
   "iBitHub": {
     "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240", "stax": "0x240"},
     "appName": "iBitHub",
