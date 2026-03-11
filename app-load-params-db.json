@@ -23,6 +23,12 @@
     "curve": ["secp256k1"],
     "path": ["44'/441'"]
   },
+  "ALEO": {
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appName": "Aleo",
+    "curve": ["bls12377g1"],
+    "path": ["44'/683'"]
+  },
   "ALGO": {
     "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Algorand",
