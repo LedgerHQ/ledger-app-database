@@ -858,10 +858,10 @@
     "path_slip21": "LEDGER-Wallet policy"
   },
   "bitcoin_testnet_legacy": {
-    "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
+    "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa000"},
     "appName": "Bitcoin Test Legacy",
     "curve": ["secp256k1"],
-    "path": [null]
+    "path": ["*/1'", "4541509'", "45'"]
   },
   "brick_towers": {
     "appFlags": {"apex_p": "0x800", "flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
