@@ -801,7 +801,7 @@
     "path": ["*/1'", "4541509'", "45'", "73681862'"]
   },
   "banano": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Banano",
     "curve": ["ed25519"],
     "path": ["44'/198'"]
@@ -1460,7 +1460,7 @@
     "path": ["44'/184'"]
   },
   "nano": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
+    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Nano",
     "curve": ["ed25519"],
     "path": ["44'/165'"]
