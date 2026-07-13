@@ -837,6 +837,12 @@
     "curve": ["secp256k1"],
     "path": ["*/145'", "*/0'", "4541509'", "45'"]
   },
+  "bitcoin_cash_ii": {
+    "appFlags": {"nanos2": "0x800"},
+    "appName": "Bitcoin Cash II",
+    "curve": ["secp256k1"],
+    "path": ["*/145'", "*/0'", "4541509'", "45'"]
+  },
   "bitcoin_clone_boilerplate": {
     "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin clone boilerplate",
