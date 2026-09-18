@@ -849,6 +849,13 @@
     "curve": ["secp256k1"],
     "path": ["*/156'", "*/0'", "4541509'", "45'"]
   },
+  "bitcoin_ii": {
+    "appFlags": {"apex_p": "0xa40", "flex": "0xa40", "nanos2": "0xa40", "nanox": "0xa40", "stax": "0xa40"},
+    "appName": "Bitcoin II",
+    "curve": ["secp256k1"],
+    "path": ["*/0'", "4541509'", "45'"],
+    "path_slip21": "LEDGER-Wallet policy"
+  },
   "bitcoin_legacy": {
     "appFlags": {"apex_p": "0xa10", "flex": "0xa10", "nanos2": "0x810", "nanox": "0xa10", "stax": "0xa10"},
     "appName": "Bitcoin Legacy",
