@@ -24,7 +24,7 @@
     "path": ["44'/441'"]
   },
   "ALEO": {
-    "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Aleo",
     "curve": ["bls12377g1"],
     "path": ["44'/683'"]
@@ -63,7 +63,7 @@
     "appFlags": {"apex_p": "0xa00", "flex": "0xa00", "nanos2": "0x800", "nanox": "0xa00", "stax": "0xa00"},
     "appName": "Cosmos",
     "curve": ["secp256k1"],
-    "path": ["44'/118'", "44'/60'"]
+    "path": ["44'/118'", "44'/60'", "44'/1200'"]
   },
   "AVAIL": {
     "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
@@ -511,7 +511,7 @@
   "POLYX": {
     "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Polymesh",
-    "curve": ["ed25519"],
+    "curve": ["ed25519", "secp256k1"],
     "path": ["44'/595'"]
   },
   "QUBIC": {
@@ -741,7 +741,7 @@
     "path": ["44'/60'"]
   },
   "ardor": {
-    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
+    "appFlags": {"flex": "0x200", "nanos": "0x000", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
     "appName": "Ardor",
     "curve": ["ed25519"],
     "path": ["44'/16754'"]
@@ -1755,7 +1755,7 @@
     "path": ["44'/19165'"]
   },
   "seed_tool": {
-    "appFlags": {"flex": "0x10", "nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
+    "appFlags": {"apex_p": "0x10", "flex": "0x10", "nanos": "0x10", "nanos2": "0x10", "nanox": "0x10", "stax": "0x10"},
     "appName": "Seed Tool",
     "curve": ["secp256k1"],
     "path": [null]
