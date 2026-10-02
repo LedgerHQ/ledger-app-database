@@ -1054,8 +1054,9 @@
     "path": ["44'/60'"]
   },
   "elastos": {
-    "appFlags": {"nanos": "0x240", "nanos2": "0x240", "nanox": "0x240"},
+    "appFlags": {"nanos": "0x000", "nanos2": "0x000", "nanox": "0x200"},
     "appName": "Elastos",
+    "curve": ["secp256r1"],
     "path": ["44'/2305'"]
   },
   "ellaism": {
