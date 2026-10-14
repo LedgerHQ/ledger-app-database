@@ -736,7 +736,7 @@
   },
   "app-gno": {
     "appFlags": {"apex_p": "0x200", "flex": "0x200", "nanos2": "0x000", "nanox": "0x200", "stax": "0x200"},
-    "appName": "Gno",
+    "appName": "Gno.land",
     "curve": ["secp256k1"],
     "path": ["44'/118'"]
   },
