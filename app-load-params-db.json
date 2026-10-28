@@ -740,12 +740,6 @@
     "curve": ["secp256k1"],
     "path": ["44'/118'"]
   },
-  "app-mobilecoin": {
-    "appFlags": {"nanos2": "0x240", "nanox": "0x240"},
-    "appName": "MobileCoin",
-    "curve": ["ed25519"],
-    "path": ["44'/866'", "13'"]
-  },
   "apwine": {
     "appFlags": {"apex_p": "0x800", "flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
     "appName": "APWine",
@@ -1387,6 +1381,12 @@
     "appName": "LBRY",
     "curve": ["secp256k1"],
     "path": ["*/140'"]
+  },
+  "ledger-mob-fw": {
+    "appFlags": {"nanos2": "0x240", "nanox": "0x240"},
+    "appName": "MobileCoin",
+    "curve": ["ed25519"],
+    "path": ["44'/866'", "13'"]
   },
   "lens": {
     "appFlags": {"apex_p": "0x800", "flex": "0x800", "nanos2": "0x800", "nanox": "0x800", "stax": "0x800"},
