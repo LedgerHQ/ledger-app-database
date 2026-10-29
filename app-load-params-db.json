@@ -741,7 +741,7 @@
     "path": ["44'/118'"]
   },
   "app-mobilecoin": {
-    "appFlags": {"nanos2": "0x240", "nanox": "0x240"},
+    "appFlags": {"nanos2": "0x040", "nanox": "0x240"},
     "appName": "MobileCoin",
     "curve": ["ed25519"],
     "path": ["44'/866'", "13'"]
